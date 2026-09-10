@@ -43,7 +43,7 @@ No journal-branch setup is required. The journal will move to a separate reposit
 | Time | Activity |
 | --- | --- |
 | 00:00–00:15 | Course framing: what is a generative system? |
-| 00:15–00:30 | Historical examples and rule analysis |
+| 00:15–00:30 | Four examples: authored, open, collective, everyday |
 | 00:30–00:40 | Demonstrate the Human → Human exercise |
 | 00:40–01:05 | Paired procedural drawing, first execution |
 | 01:05–01:20 | Compare results and annotate ambiguity |
@@ -69,36 +69,98 @@ Briefly distinguish:
 
 Use the [_Introduction_ slides][intro-slides] to frame the course and the [_History_ slides][history-slides] only for a short through-line from instruction-based art to computational systems. The aim is not a full historical survey.
 
-## Part 2: Looking outward
+## Part 2: Four relationships between rules and outcomes
 
-### Sol LeWitt
+These are four short comparisons, not four separate exercises. Spend no more than five minutes on any one reference. In each case, distinguish the rule author, executor, interpretation, and outcome.
 
-Consider [*Wall Drawing 118*][wall-drawing-118]:
+### 1. Precise-looking artistic instructions — Sol LeWitt
+
+First show only the instruction for [Sol LeWitt's *Wall Drawing 118*][wall-drawing-118]:
 
 > Fifty randomly placed points, all connected by straight lines.
 
+Before revealing or discussing the execution, ask students to mark the words that seem exact and the words that leave work for another person. Then reveal the existing image:
+
 ![Sol LeWitt, Wall Drawing 118](images/wd118.jpg)
 
-The sentence is concise, but it still establishes a system: someone must place points, decide what “randomly” permits, and connect them. The wall drawing is an execution of the instruction, not the instruction itself.
+Keep the focus on the relationship among LeWitt as author of the system, the written instruction, the installers or drafters who execute it, and the resulting wall drawing—not on a long biography.
 
-### Conditional Design
+- Which words appear precise?
+- Which words still require interpretation?
+- Who makes the compositional decisions?
+- Is each execution an original work, an instance of the work, or both?
+- Where does authorship reside?
 
-Look at selected prompts from the [Conditional Design archive](https://conditionaldesign.org/archive) or workbook. These projects foreground rules, collaboration, constraints, and the decisions made during execution.
+### 2. Deliberately open instructions — an event score
 
-![Conditional Design poster](images/poster.jpg)
+In Yoko Ono's *Cloud Piece* (1963), later published in *Grapefruit*, the participant is invited to imagine clouds dripping and to make a hole in the garden to receive them. This is a brief paraphrase rather than a script to reproduce. See the [Museum of Modern Art's account of *Grapefruit*][moma-grapefruit].
 
-For **each** reference, ask:
+Unlike LeWitt's apparently precise instruction, this score can produce an imaginary, impossible, poetic, or subjective action. Ambiguity is artistic material; a successful execution need not be a visually accurate illustration.
 
-1. Where are the rules?
-2. Who executes them?
-3. Which decisions are specified?
-4. Which decisions remain open?
-5. Would two executions be identical?
-6. Is interpretation a mistake, or part of the work?
+- Is this instruction intended to be followed literally?
+- What does the executor contribute?
+- Can an ambiguous algorithm still be a meaningful system?
+- What would be lost if the instruction became completely precise?
 
-### Optional short examples
+### 3. Collective rule systems — Conditional Drawing
 
-If useful, briefly demonstrate [Sprouts][sprouts] or Moniker's [*The Beach*](https://conditionaldesign.org/workshops/the-beach/) as further systems of rules and social interpretation. Do not run them as separate 30-minute activities.
+Use one activity adapted from the [Conditional Design archive][conditional-archive] as the primary social-system example. Groups of three or four need one large sheet of paper and a differently coloured pen for each participant.
+
+1. Each participant places one point anywhere on the sheet.
+2. Take turns. On a turn, extend one existing point or line-end with a single straight line in your own colour.
+3. The new line must end at another point or line, and must not cross an existing line.
+4. Continue clockwise; do not erase or move earlier marks.
+5. Stop after twelve minutes or when the group agrees that no legal move remains.
+
+This compact classroom protocol is not a claim to reproduce one archived score exactly. It uses Conditional Design's collective method to make feedback visible: every local choice changes what later participants can do, and the rules' authors did not draw the outcome in advance.
+
+![A Conditional Design collective drawing](images/poster.jpg)
+
+- Which decisions belong to the rules?
+- Which belong to the participants?
+- Does the order of participation matter?
+- Can the final result be predicted from the initial rules?
+- What happens when participants interpret a rule differently?
+
+### 4. Everyday instructions — a non-art comparison
+
+In small groups, choose one familiar procedure: a recipe, assembly diagram, knitting or weaving pattern, board-game rule, choreography notation, transit procedure, paper-folding directions, or classroom routine. Do not default to the comic “make a sandwich” test; investigate embodied skill and assumptions seriously if food preparation is selected.
+
+Annotate the procedure to identify:
+
+- required inputs;
+- sequence and repetition;
+- conditions;
+- assumed knowledge;
+- stopping condition;
+- tolerance for variation.
+
+These procedures demonstrate that algorithms predate computers and operate far beyond them. Compare what the procedure states with what a competent practitioner supplies.
+
+### Comparison table
+
+Treat these entries as prompts, not definitive judgements. Students may disagree and revise the table after discussion.
+
+| Example | Rule author | Executor | Rule precision | Source of variation | Predictability |
+| --- | --- | --- | --- | --- | --- |
+| Sol LeWitt | Artist | Installers/drafters | Apparently precise but interpreted | Placement and execution | Partial |
+| Event score | Artist | Reader/participant | Intentionally open | Imagination and interpretation | Low |
+| Conditional Design | Designers/group | Multiple participants | Constrained social protocol | Interaction and sequence | Partial |
+| Everyday procedure | Community/designer/user | Practitioner | Depends on assumed knowledge | Materials, context, skill | Variable |
+| p5.js procedure | Student | Computer | Syntactically strict | Values and programmed rules | High unless variation is encoded |
+
+### Counterexample: appearance is not evidence
+
+Show this image without initially revealing its process or filename:
+
+![Repeated circular forms in black and white](../../assets/images/circles01-bw.png)
+
+- Can visual appearance prove that a work is generative?
+- Could this image have been drawn manually?
+- What evidence would reveal the system?
+- Are repeated forms enough to establish an algorithm?
+
+Only after discussion, reveal any available process evidence. The course studies processes and systems, not merely a recognisable “generative” aesthetic.
 
 ## Part 3: Core Human → Human exercise
 
@@ -173,7 +235,11 @@ Use only what is needed from this small set:
 - `stroke()` and `fill()`;
 - primitives such as `point()`, `line()`, `circle()`, and `rect()`.
 
-For example, “draw a circle near the centre, then place a rectangle below it” must become an explicit order with numeric positions and sizes:
+End the Human → Human exercise with one deliberately tiny translation. Keep the three representations together.
+
+**Natural-language instruction:** Draw a circle near the centre, then place a rectangle below it.
+
+**Ordered p5.js statements:**
 
 ```js
 function setup() {
@@ -186,15 +252,18 @@ function setup() {
 }
 ```
 
-Do **not** require loops, arrays, randomness, animation, `map()`, object-oriented code, or a polished final composition. Iteration and randomness belong in Session 2.
+**Rendered result:**
+
+![A white circle above a white rectangle on a light grey square](images/ordered-primitives.svg)
+
+Do **not** require loops, arrays, randomness, animation, `map()`, object-oriented code, or a polished final composition. Loops, randomness, and animation belong in Sessions 2 and 3.
 
 Use the translation to ask:
 
 - What could the human infer that the computer could not?
-- Which natural-language instruction had to be divided into smaller steps?
-- Which decisions became numeric?
-- Did the computer remove ambiguity, or merely relocate it into the code?
-- What would need to change before the computer could perform repetition?
+- Which values had to become explicit for the computer?
+- Does the code express the artistic intention, or only drawing operations?
+- What would need to be added to produce repetition or variation?
 
 This final **encode** stage is not about making the best image. It exposes the difference between **Human → Human** and **Human → Computer** execution.
 
@@ -236,16 +305,27 @@ Bring:
 
 This is a direct bridge into **Session 2 — Repetition & Variation** without teaching loops in Session 1.
 
-## Optional practice
+## Optional examples and practice
 
 The following are extensions, not Session 1 core activities:
 
 - explore selected [p5.js tutorials](https://p5js.org/tutorials/) or the [p5.js reference](https://p5js.org/reference/);
 - “Draw then code” and “One with everything” exercises;
 - build an imaginary map from simple primitives;
-- play or analyse [Sprouts][sprouts] and [*The Beach*](https://conditionaldesign.org/workshops/the-beach/).
+- play or analyse [Sprouts][sprouts], a compact game with explicit constraints, turns, legal moves, and an end condition;
+- keep Moniker's [*The Beach*](https://conditionaldesign.org/workshops/the-beach/) as an optional pointer only. Its fuller treatment belongs in Session 4 when that lesson addresses **Behaviour & Agency**, where self-organisation and emergence are the central connections.
 
-Iteration, loops, and randomness are deferred to Session 2.
+### Explore further
+
+Use these only when they support a particular question; they are not additions to the four-example presentation:
+
+- [Sprouts][sprouts] for legal moves and stopping conditions;
+- [*The Beach*](https://conditionaldesign.org/workshops/the-beach/) for later discussion of self-organisation;
+- other short scores in the [MoMA overview of *Grapefruit*][moma-grapefruit] for intentionally open execution.
+
+Additional references should add a relationship not already represented, support a specific question or activity, take under five minutes to explain, and have a reliable accessible source. They should broaden practices, media, or perspectives without implying that generative practice began with computers or requiring a historical detour. Confirm that any reproduced material fits the course site's copyright and attribution practices.
+
+Iteration, loops, randomness, and animation are deferred to Sessions 2 and 3.
 
 ## References
 
@@ -253,6 +333,7 @@ Iteration, loops, and randomness are deferred to Session 2.
 - [_History_ slides][history-slides]
 - [Sol LeWitt at MASS MoCA](https://massmoca.org/sol-lewitt/)
 - [Conditional Design archive](https://conditionaldesign.org/archive)
+- [Yoko Ono, *Grapefruit*, Museum of Modern Art][moma-grapefruit]
 - [p5.js reference](https://p5js.org/reference/)
 - [The Coding Train](https://thecodingtrain.com/)
 - [The Nature of Code](https://natureofcode.com/)
@@ -261,3 +342,5 @@ Iteration, loops, and randomness are deferred to Session 2.
 [history-slides]: https://digitalideation.github.io/gencg_h2501/slides/history.html
 [sprouts]: https://nrich.maths.org/2413
 [wall-drawing-118]: https://jessicacarnegie.com/sol-lewitt-wall-drawing-118
+[conditional-archive]: https://conditionaldesign.org/archive
+[moma-grapefruit]: https://www.moma.org/learn/moma_learning/yoko-ono-grapefruit-1964/

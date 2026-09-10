@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Ordered primitive drawing</title>
+  <desc id="desc">A white circle outlined in black above a white rectangle on a light grey square.</desc>
+  <rect width="400" height="400" fill="rgb(240,240,240)"/>
+  <circle cx="200" cy="180" r="40" fill="white" stroke="black"/>
+  <rect x="160" y="240" width="80" height="50" fill="white" stroke="black"/>
+</svg>
