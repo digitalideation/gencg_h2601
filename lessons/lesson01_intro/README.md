@@ -1,155 +1,263 @@
-# Lesson 01 – Introduction & Foundations
+# Session 1 — Instructions & Systems
 
-!['Vera Molnar Statement'](images/vm.jpeg)  
-_#veramolnar sharing her artistic process and the profound evolution and revolution of #generativeart in the 1980s unknowingly creating a historic artist statement for time immortal…_  
-[> Source](https://twitter.com/michaelspalter/status/1442482576283869184)
+> **Generative coding means designing rules and systems that produce outcomes.**
 
-## Schedule
+This session begins with instructions executed by people, then uses the same questions to make a small transition into code. Its working sequence is:
 
-| Time          | Desc                                                                         |
-| ------------- | ---------------------------------------------------------------------------- |
-| 00:00 – 00:30 | [Welcome & Setup](#welcome--setup)                                           |
-| 00:30 – 01:00 | [Computing Without Computer (Analog Exercises)](#computing-wihtout-computer) |
-| 01:00 - 01:10 | [Break](#-break)                                                             |
-| 01:15 - 02:00 | [Computing with computer](#computing-with-computer)                          |
-| 02:00 - 02:15 | [Wrap up](#wrap-up--homework)                                                |
+## **experience → formulate → execute → compare → revise → encode**
 
-## 🎯 Focus
+## 🔴 HUMAN
 
-Get familiar with the course structure, explore generative concepts through analog activities, and set up coding tools for digital experiments.
+This session is an independent baseline:
 
----
+- **Do not use generative AI to write the instructions.**
+- **Do not use generative AI to write or debug the p5.js code.**
+- **Do not use generative AI to produce the process reflection.**
+- You may use peers, the instructor, supplied examples, and the [p5.js reference](https://p5js.org/reference/).
 
-## Content
+Trying the process independently establishes a baseline for later comparisons with AI. Asking people for help is encouraged: describe what you expected, show what happened, and identify what you have already tried. Help peers in the same way, without taking over their work.
 
-### Welcome & Setup
+## Learning objectives
 
-- Course overview: goals, philosophy, expectations.
-  - Class
-  - Philosophy
-    - [Peer Learning](https://42.fr/en/what-is-42/the-42-method/)
-    - [Three before me](https://practices.learningaccelerator.org/strategies/3-before-me)
-    - Different levels -> Help others, produce content for the class.
-- [_Intro_ slides][url00]: “The aesthetic of generative coding”, course setup, basics.
-- [_History_ slides][url01]: pioneers of generative art (Malevich, Klee, Molnár, Nees, etc.).
-- Importance of journaling and documentation.
-- Produce content that can be shared
-- Notes on "AI"
-- Repository setup: clone repo, check folder structure, create `journal/` branch.
-- Intro - You
-  - Questions / Expectations
-    - 1 sentence on post-it (Feelings / not tech)
-    - Research driven by questions
-- Getting help
-  - How to ask for help
-  - Pair programming
-  - Code of conduct (OSS, etc...)
-- Giving feedback:
-  - Exit tickets: 2 Questions at the end of each class (what form? Slack?)
-  - Critique and Feedback: interactive (Slack? G docs? Questionnaire?)
+By the end of the session, students should be able to:
 
-## Computing wihtout computer
+- Recognise a generative work as a **system of rules**, rather than a visual style.
+- Write a finite sequence of executable instructions.
+- Identify ambiguity, hidden assumptions, and interpretation in an instruction set.
+- Revise rules after observing an unexpected result.
+- Translate a small human-readable procedure into ordered p5.js commands.
+- Explain the difference between **Human → Human** and **Human → Computer** execution.
 
-### Sollewit: [Wall drawing 118][url03] _(30 mns)_
+## Before class
 
-Fifty randomly placed points all connected by straight lines.
+Preparation is deliberately minimal:
 
-![wall drawing 118](images/wd118.jpg)
+- Confirm access to the [p5.js web editor](https://editor.p5js.org/) or the supported local environment.
+- Bring paper and a drawing tool.
+- Bring one example of instructions encountered in ordinary life.
 
-### John H. Conway & Michael S. Patterson: [Sprouts][url02] _(30 mns)_
+No journal-branch setup is required. The journal will move to a separate repository; until it exists, keep the process evidence listed below.
 
-The game starts by drawing any number of spots. For example 3 spots. The first player has a turn by joining two of the spots and marking a new spot in the middle of the line. Or the line may start and end on the same spot.
+## Schedule (150 minutes)
 
-You are not allowed to draw a line which crosses another line. A spot cannot have more than three lines leading to or from it. The idea is to make it impossible for the other player to draw a line. So the last person to draw a line is the winner.
+| Time | Activity |
+| --- | --- |
+| 00:00–00:15 | Course framing: what is a generative system? |
+| 00:15–00:30 | Historical examples and rule analysis |
+| 00:30–00:40 | Demonstrate the Human → Human exercise |
+| 00:40–01:05 | Paired procedural drawing, first execution |
+| 01:05–01:20 | Compare results and annotate ambiguity |
+| 01:20–01:30 | Break |
+| 01:30–01:50 | Revise instructions and execute again |
+| 01:50–02:00 | Discuss Human → Human versus Human → Computer |
+| 02:00–02:20 | Translate selected instructions into p5.js |
+| 02:20–02:25 | Share contrasting translations |
+| 02:25–02:30 | Exit ticket |
 
-![Sprouts](images/sprouts.png)  
-[> Source][url02]
+## Part 1: Course framing
 
-### Moniker: [The beach](https://conditionaldesign.org/workshops/the-beach/) _(30 mns)_
+The central proposition for the course is:
 
-Roel: "entering the beach on a sunny day you will look for an empty place and position yourself right in the middle". - A fascinating form of self organization.
+> **Generative coding means designing rules and systems that produce outcomes.**
 
-![beach](images/thebeach.jpg)  
-[> Source](https://conditionaldesign.org)
+Briefly distinguish:
 
-### Procedural Drawing: _(30 mns)_
+- an outcome from the system that produced it;
+- directly drawing an image from designing instructions for an image;
+- executing a rule from interpreting a rule;
+- deterministic instructions from instructions that contain choice or chance.
 
-Develop your own procedural drawing instructions based on [Sol Lewitt's work](https://massmoca.org/sol-lewitt/) or some prompts from [Conditional Design](https://conditionaldesign.org/archive). Have one or more of you peers produce a drawing from this system.
+Use the [_Introduction_ slides][intro-slides] to frame the course and the [_History_ slides][history-slides] only for a short through-line from instruction-based art to computational systems. The aim is not a full historical survey.
 
-![poster](images/poster.jpg)  
-[> Source](https://conditionaldesign.org)
+## Part 2: Looking outward
 
-### More...
+### Sol LeWitt
 
-- [Thread on art done without computers](https://twitter.com/m_pf/status/1442047197214756866)
+Consider [*Wall Drawing 118*][wall-drawing-118]:
 
-## 🤔 Break
+> Fifty randomly placed points, all connected by straight lines.
 
-- Surprises, ambiguities, constraints.
-- Link analog rules to computational thinking.
+![Sol LeWitt, Wall Drawing 118](images/wd118.jpg)
 
-## Computing with computer
+The sentence is concise, but it still establishes a system: someone must place points, decide what “randomly” permits, and connect them. The wall drawing is an execution of the instruction, not the instruction itself.
 
-### 1) Getting familiar with the software
+### Conditional Design
 
-Complete the intro and some of the tutorials from [P5.js learn page](https://p5js.org/learn/)
+Look at selected prompts from the [Conditional Design archive](https://conditionaldesign.org/archive) or workbook. These projects foreground rules, collaboration, constraints, and the decisions made during execution.
 
-### 2) Draw then code
+![Conditional Design poster](images/poster.jpg)
 
-Make a simple drawing and try to reproduce it with code.  
-!['One with everything'](images/draw_then_code.jpg)
+For **each** reference, ask:
 
-### 3) One with everything
+1. Where are the rules?
+2. Who executes them?
+3. Which decisions are specified?
+4. Which decisions remain open?
+5. Would two executions be identical?
+6. Is interpretation a mistake, or part of the work?
 
-Draw all possible geometric shapes you can generate with your software.  
-!['One with everything'](images/one_with_everything.png)  
-[> Source](https://github.com/CodeAsCreativeMedium/exercises/tree/main/01_graphic_elements/01_one_with_everything)
+### Optional short examples
 
-### 4) Iteration + randomness
+If useful, briefly demonstrate [Sprouts][sprouts] or Moniker's [*The Beach*](https://conditionaldesign.org/workshops/the-beach/) as further systems of rules and social interpretation. Do not run them as separate 30-minute activities.
 
-Build a grid, add some randomness to it (different elements in the grid).
+## Part 3: Core Human → Human exercise
 
-### 5) Map
+Work in pairs with separate roles:
 
-Build a map of an imaginary place.
+- **Author:** writes the instructions and has an intended result in mind.
+- **Executor:** follows the instructions without seeing the intended result.
 
-## Wrap-Up & Homework
+Use a constrained material and vocabulary set so the focus remains on rule formulation rather than illustration:
 
-- Summarize key learnings: rules, randomness, iteration.
-- Exit ticket: one insight + one difficulty.
+- one sheet of paper;
+- one black pen;
+- points, lines, circles, rectangles, and filled areas;
+- six to ten instructions;
+- ten minutes for execution.
 
-## 📂 Deliverables
+The author's instruction set must define:
 
-- Documentation and thoughts on Computing without computers (photos, short analysis & take away from the games)
-- Code and documentation on Computing with computers, start writing about it in your journal, add some gifs.
-- Include a scan or photo of your drawings in the post(s).
+1. the starting condition;
+2. the order of operations;
+3. relevant positions or relationships;
+4. any repetition;
+5. the stopping condition.
 
-## 📓 Journal Prompts
+### First execution
 
-- How did analog rules compare to coding rules?
-- Where did ambiguity or randomness lead to surprising results?
-- Which historical examples inspired you?
-- What was difficult about setting up your environment?
+- The executor may not ask clarifying questions.
+- The author may not intervene.
+- The executor marks or records moments of uncertainty without resolving them aloud.
+- After execution, both students annotate those moments.
 
-## 🗒️ To-Do for Next Week
+This is the first pass through **experience → formulate → execute → compare**. Treat an unexpected result as evidence about the system, not simply as failure by the executor.
 
-- ✅ Install and test **local p5.js setup** on your machine (VS Code + Live Server or similar).
-- ✅ Get familiar with the **journal workflow**:
-  - Make a test entry in your `journal/` branch.
-  - Practice adding images, code snippets, and reflections.
-- ✅ Bring a small generative sketch (analog or digital) to share in Lesson 02.
+## Part 4: Compare and diagnose
 
-## 🎨 References & Inspiration
+Place the intended idea, written instructions, and resulting drawing together. Identify at least **three consequential phrases or omissions**, then classify each using these categories:
 
-- _History_ slides: Hilma af Klint, Malevich, Kandinsky, Vera Molnár, Nees/Noll/Nake, etc.
-- _Intro_ slides: course framing, aesthetics, vector basics.
-- Sol LeWitt – Wall Drawing #118.
-- Moniker – Conditional Design Workbook.
-- Conway & Patterson – Sprouts game.
-- p5.js reference: [https://p5js.org](https://p5js.org).
-- Tutorials: [The Coding Train](https://thecodingtrain.com), [Nature of Code](https://natureofcode.com).
+| Category | Diagnostic |
+| --- | --- |
+| **Ambiguity** | The wording supports multiple interpretations. |
+| **Assumption** | Necessary information was never stated. |
+| **Sequence** | The order changes or prevents the result. |
+| **Intentional openness** | Variation is deliberately left to the executor. |
 
-[url00]: https://digitalideation.github.io/gencg_h2501/slides/intro.html
-[url01]: https://digitalideation.github.io/gencg_h2501/slides/history.html
-[url02]: https://nrich.maths.org/2413
-[url03]: https://jessicacarnegie.com/sol-lewitt-wall-drawing-118
+Discuss what the executor inferred, where the result diverged, and which differences matter. Documentation of unexpected results is evidence that makes the rules available for revision.
+
+## Part 5: Revision
+
+Rewrite **only** the instructions that caused meaningful differences. If class size permits, give the revised version to a new executor and repeat the drawing without clarification or intervention.
+
+Compare the two executions:
+
+- What became more precise?
+- What variation remained?
+- Did greater precision improve the work?
+- Was any ambiguity worth preserving?
+
+Revision is part of algorithm design, not a correction performed after “the real work.” This completes **revise** in the session sequence and prepares the rules to be encoded.
+
+## Part 6: Human → Computer bridge
+
+Introduce p5.js as another executor—one that requires a different form of precision. Translate a **small subset** of the revised instructions into ordered drawing commands.
+
+### Coding scope
+
+Use only what is needed from this small set:
+
+- `setup()`;
+- `createCanvas()`;
+- canvas coordinates;
+- `background()`;
+- `stroke()` and `fill()`;
+- primitives such as `point()`, `line()`, `circle()`, and `rect()`.
+
+For example, “draw a circle near the centre, then place a rectangle below it” must become an explicit order with numeric positions and sizes:
+
+```js
+function setup() {
+  createCanvas(400, 400);
+  background(240);
+  stroke(0);
+  fill(255);
+  circle(200, 180, 80);
+  rect(160, 240, 80, 50);
+}
+```
+
+Do **not** require loops, arrays, randomness, animation, `map()`, object-oriented code, or a polished final composition. Iteration and randomness belong in Session 2.
+
+Use the translation to ask:
+
+- What could the human infer that the computer could not?
+- Which natural-language instruction had to be divided into smaller steps?
+- Which decisions became numeric?
+- Did the computer remove ambiguity, or merely relocate it into the code?
+- What would need to change before the computer could perform repetition?
+
+This final **encode** stage is not about making the best image. It exposes the difference between **Human → Human** and **Human → Computer** execution.
+
+## Process evidence to retain
+
+Keep the following material for the future journal repository:
+
+- the first instruction set;
+- a photograph or scan of the first execution;
+- annotations identifying at least three ambiguities or assumptions;
+- the revised instruction set;
+- a photograph or scan of the second execution;
+- a screenshot or link to the small p5.js translation;
+- three concise observations:
+  1. one thing the executor interpreted unexpectedly;
+  2. one rule you revised;
+  3. one difference between a human and computer executor.
+
+Do not write a long reflective essay. For now, retain these items rather than committing them to a journal branch.
+
+## Exit ticket
+
+Complete these three statements:
+
+1. “The most important rule in my system was…”
+2. “My executor had to assume…”
+3. “Before a computer could execute this, I had to…”
+
+The responses will identify concepts to revisit at the start of Session 2.
+
+## Checkpoint for Session 2
+
+Bring:
+
+- one simple visual unit or mark;
+- one plain-language placement rule;
+- one sketch showing the unit repeated at least five times;
+- one proposed exception to the repetition.
+
+This is a direct bridge into **Session 2 — Repetition & Variation** without teaching loops in Session 1.
+
+## Optional practice
+
+The following are extensions, not Session 1 core activities:
+
+- explore selected [p5.js tutorials](https://p5js.org/tutorials/) or the [p5.js reference](https://p5js.org/reference/);
+- “Draw then code” and “One with everything” exercises;
+- build an imaginary map from simple primitives;
+- play or analyse [Sprouts][sprouts] and [*The Beach*](https://conditionaldesign.org/workshops/the-beach/).
+
+Iteration, loops, and randomness are deferred to Session 2.
+
+## References
+
+- [_Introduction_ slides][intro-slides]
+- [_History_ slides][history-slides]
+- [Sol LeWitt at MASS MoCA](https://massmoca.org/sol-lewitt/)
+- [Conditional Design archive](https://conditionaldesign.org/archive)
+- [p5.js reference](https://p5js.org/reference/)
+- [The Coding Train](https://thecodingtrain.com/)
+- [The Nature of Code](https://natureofcode.com/)
+
+[intro-slides]: https://digitalideation.github.io/gencg_h2501/slides/intro.html
+[history-slides]: https://digitalideation.github.io/gencg_h2501/slides/history.html
+[sprouts]: https://nrich.maths.org/2413
+[wall-drawing-118]: https://jessicacarnegie.com/sol-lewitt-wall-drawing-118
