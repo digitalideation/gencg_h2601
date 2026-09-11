@@ -73,3 +73,23 @@ a {
         padding: 1.5rem 1rem
     }
 }
+
+/* Locate your top navigation selector (e.g., nav, header, .navbar, .top-nav) */
+nav, .navbar, header {
+    display: none !important;
+}
+
+/* If the body or main container has top padding or margin to accommodate the nav, reset it */
+body, main, #content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* Locate your main content container */
+.container, .wrapper, main, #content {
+    max-width: 90% !important; /* Expands it to 90% of the screen width */
+    /* OR use a wider fixed maximum if you prefer: max-width: 1400px; */
+    
+    width: 100%;
+    margin: 0 auto; /* Keeps the expanded content horizontally centered */
+}
