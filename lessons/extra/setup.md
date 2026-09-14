@@ -8,7 +8,7 @@ You do not need to understand everything yet. The goal is simply to have the sof
 - [3. Install VS Code](#3-install-vs-code)
   - [Recommended extension](#recommended-extension)
 - [4. Install Obsidian](#4-install-obsidian)
-- [5. Install Excalidraw in Obsidian](#5-install-excalidraw-in-obsidian)
+- [5. Configure Obsidian](#5-configure-obsidian)
 - [6. Test p5.js locally](#6-test-p5js-locally)
 - [7. Browser](#7-browser)
 - [Before the first session](#before-the-first-session)
@@ -87,22 +87,19 @@ The journal will contain things such as:
 - short reflections
 - documentation of your process
 
-The exact journal structure will be introduced separately.
+The journal structure and publishing workflow are provided in the [Generative Computer Graphics Journal template](https://github.com/digitalideation/gencg_h2601_journal).
 
-## 5. Install Excalidraw in Obsidian
+## 5. Configure Obsidian
 
-We will use Excalidraw for quick visual thinking.
-Inside Obsidian:
+Open **Settings > Community plugins > Browse**. Install and enable:
 
-1. Open **Settings**
-2. Go to **Community plugins**
-3. Enable community plugins if necessary
-4. Search for **Excalidraw**
-5. Install and enable it
+- **Embed HTML** by mnaoumov, for embedding local HTML sketches
+- **Excalidraw** by Zsolt Viczian, for creating and embedding drawings
+- **Format with Prettier** by Alex Gavrusev, for consistent Markdown formatting
 
-Plugin: [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
+**Obsidian Git** is optional. It lets you pull, commit and push from inside Obsidian; you can use the Git tools built into VS Code instead.
 
-You do not need to learn Excalidraw before class. We will use it for:
+You do not need to learn all of these plugins before class. We will use Excalidraw for:
 
 - system diagrams
 - arrows and relationships
@@ -113,6 +110,19 @@ You do not need to learn Excalidraw before class. We will use it for:
 - quick ideas
 
 The drawings do not need to be polished.
+
+### Create your journal repository
+
+Use the **[Generative Computer Graphics Journal template](https://github.com/digitalideation/gencg_h2601_journal)**:
+
+1. Select **Use this template**, then **Create a new repository**.
+2. Create the repository in your own GitHub account. Do not fork the template.
+3. Follow the template README to enable GitHub Pages.
+4. Clone your new repository.
+5. In Obsidian, select **Open folder as vault** and choose the cloned folder.
+6. Open the same folder in VS Code when working on code or using VS Code's Git tools.
+
+The template README is the authoritative guide for journal structure, Git workflow, embedded sketches and publishing.
 
 ## 6. Test p5.js locally
 
@@ -161,7 +171,9 @@ Please arrive with:
 - [ ] VS Code installed
 - [ ] p5.js 2.x Project Generator installed
 - [ ] Obsidian installed
-- [ ] Excalidraw plugin installed
+- [ ] required Obsidian plugins installed
+- [ ] personal journal repository created and cloned
+- [ ] journal repository opened as an Obsidian vault
 - [ ] a modern browser available
 
 If something does not work, do not spend hours trying to fix it alone. Bring the problem to class and we will troubleshoot it.

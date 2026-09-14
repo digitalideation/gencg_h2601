@@ -1,375 +1,239 @@
-# The Journal - Detailed Breakdown
+# The Process Journal
 
-## What is the Journal?
+## What is the journal?
 
-The journal is inspired by **Vera Molnár's practice** of documenting algorithmic thinking, artistic decisions, and creative exploration. Molnár, a pioneer of computer art, kept detailed notebooks where she worked out algorithmic processes by hand before having access to computers - developing what she called her "machine imaginaire" (imaginary machine).
+The journal is a living record of your technical experiments, artistic thinking and changing decisions throughout the semester. It is not a portfolio of finished work and it is not meant to be a polished weekly essay.
 
-Like Molnár's journals ([Part 01](https://digitalideation.github.io/gencg_h2501/assets/pdf/vera_journal_01.pdf) / [Part 02](https://digitalideation.github.io/gencg_h2501/assets/pdf/vera_journal_02.pdf)), your journal is a **living document** that captures both your technical experiments and artistic thinking throughout the semester.
+The journal is inspired by **Vera Molnár's practice** of developing algorithmic ideas through writing and drawing. Before she had access to computers, Molnár imagined procedures by hand using what she called her *machine imaginaire*—an imaginary machine.
 
-**Format:**
+Explore examples from her notebooks:
 
-- Digital documentation using markdown
-- Code experiments and iterations
-- Hand-drawn sketches (scanned and embedded)
-- Weekly entries documenting your generative art journey
+- [Vera Molnár journal, part 1](../../assets/pdf/vera_journal_01.pdf)
+- [Vera Molnár journal, part 2](../../assets/pdf/vera_journal_02.pdf)
 
-<!-- Used for line break when printing pdf -->
-<div style="page-break-after: always;"></div>
+Your own journal can combine Markdown notes, code, screenshots, diagrams, scanned drawings, references, questions and unfinished experiments.
 
-## Purpose & Learning Goals
+## Why keep a journal?
 
-Through consistent journaling, you will develop:
+Consistent documentation helps you:
 
-- **Ability to articulate algorithmic thinking** in words, sketches, and code
-- **Practice documenting both successes AND failures** - learning happens in the gaps
-- **Building a personal visual/technical vocabulary** for discussing generative work
-- **Developing critical reflection skills** to analyze your own creative decisions
-- **Understanding the creative process** as iterative and experimental
+- articulate algorithmic thinking in words, sketches and code
+- understand creative work as an iterative process
+- record successes, failures and unexpected results
+- build a personal visual and technical vocabulary
+- reflect critically on your creative decisions
+- see connections between experiments across the semester
+- explain how and why a project developed
 
-<div style="page-break-after: always;"></div>
+Document while you work. A short observation captured at the right moment is often more useful than a long reconstruction written weeks later.
 
-## What to Document - Weekly Entry Structure
+## What to document each week
 
-Each week's journal entry should include these four elements:
+Each weekly entry should include four connected elements. They do not need to have equal length, but all four should be visible in your documentation.
 
-<div style="page-break-after: always;"></div>
+### 1. Exploration and experimentation
 
-### a) Exploration & Experimentation
+Show what you tried:
 
-- **Code experiments** - working snippets, failed attempts, variations
-- **Visual sketches** - hand-drawn ideas, scanned and embedded in your journal
-- **Parameters tested** - what variables did you play with? What ranges did you explore?
-- **Technical challenges** - what didn't work? What problems did you encounter?
+- code experiments, including incomplete or failed attempts
+- visual sketches and Excalidraw diagrams
+- parameters, values and ranges you tested
+- variations of the same system
+- technical problems and how you approached them
+- screenshots or recordings of meaningful states
 
-_Example: "This week I experimented with nested loops to create grid patterns. I tried varying the spacing parameter from 10 to 50 pixels and noticed that below 20, the pattern becomes too dense..."_
+Do not include only the final version. Show enough intermediate material to make the development of the work understandable.
 
-<div style="page-break-after: always;"></div>
+### 2. Influences and references
 
-### b) Influences & References
+Connect your work to a wider context:
 
-- **Artists and artworks** that inspired your work this week
-- **Techniques or concepts** from readings, examples, or other sources
-- **Links, images, citations** - be specific about what you're referencing
-- **Why these references matter** - how do they connect to your exploration?
+- artists and artworks
+- readings, examples and technical resources
+- visual or conceptual references
+- links, images and citations
+- a short explanation of why each reference matters
 
-_Example: "Looking at Bridget Riley's op art pieces made me think about how repetition with slight variation creates visual rhythm. I tried to apply this principle using sine waves to modulate my grid spacing..."_
+A list of links is not enough by itself. Describe what you noticed and how it influenced your experiment or decision.
 
-<div style="page-break-after: always;"></div>
+### 3. Algorithmic thinking
 
-### c) Algorithmic Thinking
+Make the system behind the work visible:
 
-- **Rules and systems** you're developing - what are the "if-then" statements?
-- **Parameters and constraints** - what can vary? What stays fixed?
-- **How code translates to visual outcomes** - describe the logic
-- **Pseudocode or diagrams** - sketch out your thinking process
+- rules, relationships and conditions
+- what remains fixed and what can vary
+- parameters and constraints
+- how code produces visual or behavioural outcomes
+- pseudocode, flow diagrams or annotated sketches
+- changes you made to the system and their effects
 
-_Example: "My system: For each cell in the grid, if the distance from center is greater than 100, draw a circle, otherwise draw a square. The size is determined by distance % 50..."_
+Try to describe the logic in plain language as well as showing the code.
 
-<div style="page-break-after: always;"></div>
+### 4. Critical reflection
 
-### d) Critical Reflection
+Reflect on the process:
 
-- **What worked?** What surprised you?
-- **What didn't work?** Why do you think it failed?
-- **Artistic decisions** - why did you choose certain colors, compositions, parameters?
-- **Questions that emerged** - what do you want to explore next?
-- **Next steps** - where is this heading?
+- What worked?
+- What failed or remained unresolved?
+- What surprised you?
+- Why did you make particular visual or technical choices?
+- Which ambiguity or unexpected behaviour was useful?
+- What would you change?
+- What questions emerged?
+- What will you explore next?
 
-_Example: "The random color selection creates chaos, but maybe that's not what I want. Next week I'll explore using a limited color palette or color harmony rules. I'm also curious about how timing/animation could add another dimension..."_
+Be specific. Instead of writing “I changed the colours,” explain what you changed, why you changed it and what effect it had.
 
-<div style="page-break-after: always;"></div>
+## Working format
 
-## Format & Technical Requirements
+Create your own repository from the **[Generative Computer Graphics Journal template](https://github.com/digitalideation/gencg_h2601_journal)**. The template contains the current technical instructions for:
 
-**Location:**
+- creating and cloning your repository
+- opening it as an Obsidian vault
+- installing the recommended plugins
+- organizing weekly entries and sketches
+- embedding images, Excalidraw drawings and p5.js sketches
+- using Git and GitHub
+- publishing the journal with Quartz and GitHub Pages
 
-- `journal` branch of the course repository
-- Keep your journal organized and easy to navigate
+Follow the template's README as the authoritative setup guide.
 
-**File Structure:**
+Your work will normally be organized by week:
 
-- Individual markdown files per week: `week_01.md`, `week_02.md`, etc.
-- OR one cumulative file with clear week headers: `journal.md`
-- Choose the structure that works best for you
-
-**Content Requirements:**
-
-- Use markdown formatting for clarity
-- Include code snippets using code blocks
-- Embed images of sketches/outputs (use relative paths)
-- Add links to external references
-- **Drawings MUST be scanned/photographed and embedded** - hand sketches are essential!
-
-**File Naming & Organization:**
-
-```
-journal/
-├── week_01.md
-├── week_02.md
-├── images/
-│   ├── sketch_week01_01.jpg
-│   ├── sketch_week01_02.jpg
-│   └── output_week02.png
-└── code/
-    ├── 01/
-    │   ├── embed.html
-    │   ├── sketch.js
-    │   └── ...
-    └── 02/
-    ...
+```text
+weeks/
+├── w01/
+│   ├── index.md
+│   ├── journal.md
+│   └── sketches/
+├── w02/
+│   └── ...
+attachments/
+Excalidraw/
+index.md
 ```
 
-<div style="page-break-after: always;"></div>
+Use relative paths for local media and code. Keep filenames clear, organize material as you add it, and check the published journal after pushing changes.
 
-## Tools & Platforms
+Because the journal repository is public, never commit passwords, API keys, personal information or material that should remain private.
 
-You are free to use any tools that support your journaling process. See the [Journaling + JS editors](#journaling--js-editors) section for recommended platforms and tools.
+## A useful weekly entry structure
 
-### ⚠️ Required for submission:
-
-All students must submit their journal to **ILIAS** by the final deadline.
-
-**If using GitHub + Markdown (recommended):**
-
-- Maintain your journal in the `journal` branch of the course repository
-- All drawings must be scanned/photographed and embedded
-- Code snippets should be included directly or linked to files in your repo
-- **For ILIAS submission:**
-  1. Export your entire journal folder as a ZIP file and upload to ILIAS
-  2. A document containing the direct link(s) to your online journal
-  3. A PDF export of your slides (or a direct link to it)
-  4. A short video (5 to 10 minutes walking us through your process and journey) - (optional)
-
-**If using an alternative platform (Observable, Notion, etc.):**
-
-- You may use alternative platforms for your working process
-- **For ILIAS submission:** You must submit:
-  1. A PDF export of your complete journal
-  2. A document containing the direct link(s) to your online journal
-  3. A PDF export of your slides (or a direct link to it)
-  4. A short video (5 to 10 minutes walking us through your process and journey) - (optional)
-
-**Submission requirements (all students):**
-
-- All weekly entries must be included
-- All drawings/sketches must be visible in the submission
-- All code snippets and references must be accessible
-- Final deadline: Week 14 (see course schedule for exact date)
-
-**Workflow suggestions:**
-
-- Draft in your preferred markdown editor (VS Code, Obsidian, Typora, etc.)
-- Use Observable or OpenProcessing for live experiments, then document in your journal
-- Use Are.na or Pinterest for collecting visual references, then cite in your journal
-- Sketch on paper, scan/photograph, and embed in your markdown files
-
-<div style="page-break-after: always;"></div>
-
-## Evaluation Criteria for Journal (40% of final grade)
-
-Your journal will be evaluated based on the following criteria:
-
-### Consistency & Regularity (25%)
-
-- **Weekly entries** submitted throughout the semester
-- **Sustained engagement** - no large gaps in documentation
-- **Timely updates** - journal reflects current weekly work
-
-### Depth of Documentation (30%)
-
-- **All four elements present** in each entry (exploration, references, algorithmic thinking, reflection)
-- **Both technical and artistic aspects** covered
-- **Includes drawings/sketches** - visual thinking is essential
-- **Code examples** that illustrate your experiments
-- **Sufficient detail** - entries go beyond surface-level description
-
-### Quality of Reflection (25%)
-
-- **Critical analysis** of your own work - not just description
-- **Evidence of learning and iteration** - showing growth over time
-- **Articulation of creative decisions** - explaining your "why"
-- **Honest assessment** of failures and challenges
-- **Thoughtful questions** that drive further exploration
-
-### Use of References (20%)
-
-- **Engagement with generative art history** and contemporary practice
-- **Proper citations** with links and credits
-- **Meaningful connections** between influences and your own work
-- **Diverse references** - exploring multiple artists, techniques, concepts
-
-<div style="page-break-after: always;"></div>
-
-## Timeline & Milestones
-
-**Week 1 (Lesson 01):**
-
-- Journal begins - first entry
-- Set up your journal structure in the `journal` branch
-
-**Weeks 2-4:**
-
-- Weekly documentation becomes routine
-- Building your visual and technical vocabulary
-
-**Week 5 (Lesson 05 - Reflection / Collect / Prepare):**
-
-- **Mid-term journal review**
-- Group feedback session on journal entries
-- Reflect on documentation practice so far
-- Adjust approach for second half of semester
-
-**Weeks 6-7:**
-
-- Continued weekly documentation
-- Integration of techniques from first half
-
-**Week 8 or 9:**
-
-- **Secondary journal review**
-- Individual or peer feedback on documentation progress
-- Assessment of iterative development
-- Refinement of approach heading into final project
-
-**Weeks 10-13:**
-
-- Continued weekly documentation
-- Focus on final project development
-- Integration of multiple techniques
-
-**Week 14 (Final Presentations):**
-
-- **Final journal entry** reflecting on entire semester journey
-- Complete journal submission as part of final deliverables
-
-<div style="page-break-after: always;"></div>
-
-## Examples & Best Practices
-
-### Good Journal Entry Structure
+You may adapt this structure to suit your process:
 
 ```markdown
-# Week 3 - Grid Systems & Variation
+# Week 03 — Grid Systems and Variation
 
 ## Exploration
 
-This week I experimented with nested for-loops to create grid patterns.
-I started with a basic grid of circles, then introduced variation using
-modulo operations.
+I began with a regular grid of circles, then tested several spacing values
+and introduced variation with a modulo operation.
 
-[Include code snippet]
-
-[Embed image of sketch]
-
-The challenge was controlling the variation - too much randomness created
-chaos, too little was boring.
+[Include code, screenshots and sketches.]
 
 ## References
 
-- Vera Molnár's "Des(ordre)" series (1974)
-- Sol LeWitt's wall drawings with systematic variation
-- [Link to specific artwork]
+Vera Molnár's use of small disruptions within ordered systems made me think
+about how little variation is needed before a pattern feels unstable.
 
-What struck me about Molnár's work is how she uses simple rules to create
-complex patterns. I wanted to apply this constraint-based approach...
+[Include links and properly credited images.]
 
-## Algorithmic Thinking
+## Algorithmic thinking
 
 My system:
 
-- Create grid of N x N cells
-- For each cell at position (i, j):
-  - If (i + j) % 3 == 0, draw filled circle
-  - Else draw outline only
-  - Size varies based on distance from center
+- Create an N × N grid.
+- Calculate each cell's distance from the centre.
+- Change the shape when a cell meets a defined condition.
+- Keep colour and spacing fixed for this test.
 
-[Include pseudocode or diagram]
+[Include pseudocode or a diagram.]
 
 ## Reflection
 
-The modulo operation created an interesting diagonal pattern I didn't
-anticipate. This "happy accident" made me realize I should explore more
-mathematical operations as design tools.
+The most random version was less interesting because the underlying rule
+became difficult to perceive. Next I will keep the positions regular and
+vary only size.
 
-Next week I want to explore:
+Questions:
 
-- Using sine/cosine for organic variation
-- Color palettes based on position
-- Animation of the grid system
-
-**Questions:** How can I make the variation feel intentional rather than
-arbitrary? What role does symmetry play in perceived order?
+- How much disruption can the grid hold before it stops reading as a grid?
+- Would animation clarify or hide the rule?
 ```
 
-<div style="page-break-after: always;"></div>
+This is an example, not a mandatory writing template. Use headings and formats that make your own process easy to follow.
 
-### Common Pitfalls to Avoid
+## Common pitfalls
 
-❌ **Just posting code without explanation**
+### Posting code without explaining it
 
-- The journal is not just a code repository
-- Always explain your thinking and decisions
+The journal is not only a code repository. Explain what the code was meant to do, what changed and what you learned from it.
 
-❌ **Only documenting successes**
+### Documenting only successful outcomes
 
-- Failed experiments are valuable learning moments
-- Document what didn't work and why
+Failed experiments are useful evidence. Include them when they reveal something about the system or influence your next decision.
 
-❌ **No visual documentation**
+### Omitting visual thinking
 
-- Drawings and sketches are required
-- Images of outputs help track your visual evolution
+Use drawings, diagrams, screenshots and variations. Visual evidence is essential in a creative coding journal.
 
-❌ **Vague reflections**
+### Writing vague reflections
 
-- "It looks cool" is not enough
-- Dig deeper: Why? What makes it work? What could be better?
+Statements such as “it looks cool” do not explain a decision. Identify the qualities you noticed and the rules or parameters that produced them.
 
-❌ **Missing references**
+### Collecting references without making connections
 
-- Your work exists in context
-- Show what inspires and influences you
+Credit your sources and describe how they relate to your own questions or experiments.
 
-### Tips for Effective Documentation
+## Assessment
 
-✅ **Document while you work, not after**
+The process journal contributes **40% of the final grade**. It is considered through the following qualities:
 
-- Capture your thinking in the moment
-- It's easier than trying to remember later
+- **Consistency and regularity:** sustained weekly documentation without large gaps
+- **Depth of documentation:** meaningful technical and artistic evidence, including sketches and code
+- **Quality of reflection:** critical analysis, learning, iteration and clearly explained decisions
+- **Use of references:** relevant, credited sources connected thoughtfully to your own work
 
-✅ **Include failed experiments**
+The journal should demonstrate development over time. Evaluation focuses on the quality and visibility of your process rather than polished writing or consistently successful outcomes.
 
-- They often lead to the best discoveries
-- Show your iterative process
+## Milestones across the 12 sessions
 
-✅ **Use visual thinking**
+### Session 1
 
-- Sketch ideas before coding
-- Diagram your algorithmic logic
-- Take screenshots of interesting outputs
+- Create your journal repository from the template.
+- Complete the setup and publishing steps.
+- Make your first entry with evidence from the instruction and rule-system exercises.
 
-✅ **Be specific**
+### Sessions 2–4
 
-- Instead of "I changed the colors," say "I switched from random RGB to a complementary color scheme using HSB color mode"
+- Establish a regular documentation rhythm.
+- Build your visual and technical vocabulary.
+- Record experiments, variations and questions as they happen.
 
-✅ **Ask questions**
+### Sessions 5–8
 
-- Good journals are full of curiosity
-- Write down questions that emerge during exploration
+- Review earlier entries and identify recurring interests.
+- Use feedback to improve the clarity and depth of your documentation.
+- Connect techniques and ideas across sessions.
 
-✅ **Connect to broader context**
+### Sessions 9–11
 
-- How does your work relate to generative art history?
-- What conversations in art/design does it engage with?
+- Document the concept, prototypes, tests and revisions for your final project.
+- Show how feedback and failed attempts affect the system.
+- Prepare the journal to communicate the full development process.
 
-<div style="page-break-after: always;"></div>
+### Session 12
 
-## Getting Started
+- Complete a final reflection on the semester.
+- Check that embedded media, code and external links remain accessible.
+- Make sure the journal clearly shows the path from early experiments to the final project.
 
-1. **Set up your journal branch** in the course repo
-2. **Create your first entry** (Week 1) - introduce yourself and your interests in generative art
-3. **Establish a weekly routine** - set aside time each week to document
-4. **Experiment with format** - find what works for you within the requirements
-5. **Review Vera Molnár's journals** for inspiration on visual documentation
+## Start here
 
-Remember: The journal is for YOU first - it's a tool for learning and growth. The evaluation is secondary to the value it provides in developing your practice as a generative artist.
+1. Open the [journal template](https://github.com/digitalideation/gencg_h2601_journal).
+2. Create your own repository using **Use this template**—do not fork it.
+3. Follow the setup and publishing instructions in its README.
+4. Open the cloned repository in Obsidian and VS Code.
+5. Begin documenting Session 1.
+
+Remember: the journal is first a tool for learning, noticing and developing your practice. Its value comes from using it continuously.

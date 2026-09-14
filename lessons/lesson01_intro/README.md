@@ -77,6 +77,8 @@ But even precise instructions leave questions:
 
 **Conditional Design**
 
+The book *Conditional Design* is an additional course reference for this session. A PDF copy will be linked here after it has been added to the repository.
+
 Instead of defining the final image, rules can define what participants are allowed to do.  
 The result emerges while people act inside those constraints.
 
