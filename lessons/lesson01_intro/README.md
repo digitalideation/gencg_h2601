@@ -350,4 +350,4 @@ Repeating and varying rules begins to produce a generative system.
 
 → [Instruction examples and references](./examples.md)
 
-→ [Deeper notes on this session](./teacher-notes.md)
+→ [Deeper notes on this session](./teacher-notes-h.md)

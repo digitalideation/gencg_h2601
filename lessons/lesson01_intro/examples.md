@@ -79,7 +79,7 @@ Questions:
 
 **Explore:**
 
-* *Conditional Design* book — a PDF copy will be linked here after it has been added to the repository
+* [Conditional Design book](../../assets/pdf/conditional_design_workbook.pdf)
 * [Conditional Design archive](https://conditionaldesign.org/archive)
 * [Conditional Design manifesto](https://conditionaldesign.org/manifesto/)
 
