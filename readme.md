@@ -46,12 +46,12 @@ We will mainly work with:
 - **[Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)** for sketches, diagrams and visual thinking inside Obsidian
 - **[Replicate](https://replicate.com/)** later in the semester for working with generative media models
 
-Your personal course repository will serve two purposes:
+The course materials and your personal process journal live in separate repositories:
 
-- open it in **Obsidian** as your course vault
-- open the same folder in **VS Code** as your development workspace
+- this repository contains the course overview, lessons, references and presentations
+- your personal journal is created from the **[Generative Computer Graphics Journal template](https://github.com/digitalideation/gencg_h2601_journal)**
 
-This means your journal, drawings, code, experiments and generated media can stay connected in one project.
+Open your journal repository in **Obsidian** as a vault and in **VS Code** as a development workspace. This keeps your notes, drawings, code experiments and generated media connected while allowing the journal to be published as a website.
 
 You do not need to learn all of these tools at once. We will introduce them when we need them.
 
@@ -151,23 +151,21 @@ We begin the semester with two presentations. First, the **[Introduction](./slid
 
 ## Process journal
 
-Throughout the semester you will maintain a **process journal in Obsidian**.  
-The journal is not intended to be a polished weekly essay.  
-It should show the development of your thinking through material such as:
+Throughout the semester you will maintain a **process journal in Obsidian**. It is a working record of how your ideas, rules and systems develop—not a polished weekly essay.
 
-- sketches and Excalidraw diagrams
-- screenshots
-- code experiments
-- failed attempts
-- variations
-- references
-- questions
-- short annotations
-- decisions and things you rejected
+Each weekly entry should include:
 
-The important thing is to **show your process**.  
-When AI becomes part of the workflow, briefly document meaningful AI contributions and what you did with them. Complete prompt histories are not required.  
-Detailed journal setup and instructions will be provided separately.
+- exploration and experimentation
+- influences and references
+- algorithmic thinking
+- critical reflection
+
+Use sketches, Excalidraw diagrams, screenshots, code experiments, failed attempts, variations, questions and short annotations. Explain meaningful decisions and things you rejected. When AI becomes part of the workflow, briefly document its meaningful contributions and what you did with them; complete prompt histories are not required.
+
+The important thing is to **show your process**, including uncertainty and revision.
+
+→ **[Read the detailed journal guidance](./lessons/extra/journal.md)**  
+→ **[Create and set up your journal repository](https://github.com/digitalideation/gencg_h2601_journal)**
 
 ## Assessment
 
