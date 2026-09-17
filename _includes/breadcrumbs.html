@@ -2,8 +2,9 @@
 {% unless breadcrumb_url == '/' %}
   {% assign url_parts = breadcrumb_url | split: '/' %}
   {% assign current_slug = url_parts | last %}
-  {% assign current_fallback = current_slug | remove: '.html' | replace: '_', ' ' | replace: '-', ' ' %}
+  {% assign current_fallback = current_slug | remove: '.html' | replace: '_', ' ' | replace: '-', ' ' | capitalize %}
   {% assign current_label = page.title | default: current_fallback %}
+  {% assign current_attribute = current_label | replace: '&amp;', '&' | replace: '&quot;', '"' | escape %}
 
   {% assign parent_url = page.dir %}
   {% if breadcrumb_url == page.dir %}
@@ -13,20 +14,21 @@
   {% assign parent_parts = parent_url | split: '/' %}
   {% assign parent_slug = parent_parts | last %}
   {% if parent_slug and parent_slug != '' %}
-    {% assign parent_fallback = parent_slug | replace: '_', ' ' | replace: '-', ' ' %}
+    {% assign parent_fallback = parent_slug | replace: '_', ' ' | replace: '-', ' ' | capitalize %}
     {% assign parent_pages = site.pages | where: 'url', parent_url %}
     {% assign parent_page = parent_pages | first %}
     {% assign parent_label = parent_page.title | default: parent_fallback %}
+    {% assign parent_attribute = parent_label | replace: '&amp;', '&' | replace: '&quot;', '"' | escape %}
     <li class="breadcrumb-step breadcrumb-parent">
       {% if parent_page %}
-        <a class="breadcrumb-item" href="{{ parent_url | relative_url }}" title="{{ parent_label | escape }}">{{ parent_label }}</a>
+        <a class="breadcrumb-item" href="{{ parent_url | relative_url }}" title="{{ parent_attribute }}">{{ parent_label }}</a>
       {% else %}
-        <span class="breadcrumb-item" title="{{ parent_label | escape }}">{{ parent_label }}</span>
+        <span class="breadcrumb-item" title="{{ parent_attribute }}">{{ parent_label }}</span>
       {% endif %}
     </li>
   {% endif %}
 
   <li class="breadcrumb-step breadcrumb-current">
-    <span class="breadcrumb-item" aria-current="page" title="{{ current_label | escape }}">{{ current_label }}</span>
+    <span class="breadcrumb-item" aria-current="page" title="{{ current_attribute }}">{{ current_label }}</span>
   </li>
 {% endunless %}
