@@ -66,6 +66,7 @@ body {
 
 .masthead-title {
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .masthead-link {
@@ -76,6 +77,55 @@ body {
 
 .masthead-title:hover,
 .masthead-link:hover {
+  color: #fff;
+}
+
+.masthead-navigation {
+  min-width: 0;
+}
+
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumb-home {
+  flex: 0 0 auto;
+}
+
+.breadcrumb-step {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.breadcrumb-step::before {
+  content: "/";
+  flex: 0 0 auto;
+  margin: 0 0.55rem;
+  color: #657176;
+}
+
+.breadcrumb-item {
+  display: block;
+  max-width: 15ch;
+  overflow: hidden;
+  color: #c9d1d4;
+  font-size: 0.86rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+a.breadcrumb-item {
+  text-decoration: none;
+}
+
+a.breadcrumb-item:hover,
+.breadcrumb-current .breadcrumb-item {
   color: #fff;
 }
 
@@ -269,6 +319,10 @@ h3:hover .heading-anchor,
 }
 
 @media screen and (max-width: 56rem) {
+  .breadcrumb-step {
+    display: none;
+  }
+
   .site-shell {
     grid-template-areas:
       "toc"
@@ -316,6 +370,10 @@ h3:hover .heading-anchor,
   .masthead-inner {
     width: min(100% - 2rem, 42rem);
     min-height: 3.25rem;
+  }
+
+  .masthead-link {
+    display: none;
   }
 
   .site-shell {
