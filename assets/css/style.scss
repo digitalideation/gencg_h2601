@@ -180,6 +180,10 @@ h3:hover .heading-anchor,
 .page-toc {
   grid-area: toc;
   min-width: 0;
+  position: sticky;
+  top: 1.5rem;
+  max-height: calc(100vh - 3rem);
+  overflow: auto;
 }
 
 .page-toc[hidden] {
@@ -187,10 +191,6 @@ h3:hover .heading-anchor,
 }
 
 .toc-panel {
-  position: sticky;
-  top: 1.5rem;
-  max-height: calc(100vh - 3rem);
-  overflow: auto;
   padding-left: 1.1rem;
   border-left: 1px solid var(--page-border);
 }
@@ -284,11 +284,14 @@ h3:hover .heading-anchor,
     padding-top: 2rem;
   }
 
-  .toc-panel {
+  .page-toc {
     position: static;
     max-height: none;
-    padding: 0.8rem 1rem;
     overflow: visible;
+  }
+
+  .toc-panel {
+    padding: 0.8rem 1rem;
     background: var(--page-surface);
     border: 1px solid var(--page-border);
     border-radius: 0.35rem;
