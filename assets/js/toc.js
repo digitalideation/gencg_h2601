@@ -89,6 +89,12 @@
       else break;
     }
 
+    const pageBottom = window.scrollY + window.innerHeight;
+    const documentBottom = document.documentElement.scrollHeight;
+    if (pageBottom >= documentBottom - 4) {
+      activeHeading = headings[headings.length - 1];
+    }
+
     links.forEach((link, id) => {
       const isActive = id === activeHeading.id;
       link.classList.toggle("is-active", isActive);
