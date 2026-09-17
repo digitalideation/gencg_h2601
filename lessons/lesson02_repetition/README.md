@@ -8,25 +8,6 @@ The main progression is:
 
 **make a unit → repeat it → vary it → interrupt it → compare outcomes**
 
-- [🔴 HUMAN](#-human)
-- [What we will explore](#what-we-will-explore)
-- [1. Repeat a simple rule](#1-repeat-a-simple-rule)
-- [2. Repetition in code](#2-repetition-in-code)
-- [3. From a row to a grid](#3-from-a-row-to-a-grid)
-- [4. Build a repeated system](#4-build-a-repeated-system)
-- [5. Introduce variation](#5-introduce-variation)
-  - [Position](#position)
-  - [Size](#size)
-  - [Orientation](#orientation)
-  - [Alternation](#alternation)
-  - [Gradual change](#gradual-change)
-- [6. Break the pattern](#6-break-the-pattern)
-- [7. Controlled randomness](#7-controlled-randomness)
-- [8. 10 PRINT](#8-10-print)
-- [Start simple, then complexify](#start-simple-then-complexify)
-- [What to keep for your journal](#what-to-keep-for-your-journal)
-- [Next session](#next-session)
-
 
 ## 🔴 HUMAN
 

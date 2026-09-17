@@ -3,17 +3,6 @@
 Before the first session, prepare the basic tools we will use during the semester.
 You do not need to understand everything yet. The goal is simply to have the software installed and your accounts ready.
 
-- [1. GitHub account](#1-github-account)
-- [2. Install Git](#2-install-git)
-- [3. Install VS Code](#3-install-vs-code)
-  - [Recommended extension](#recommended-extension)
-- [4. Install Obsidian](#4-install-obsidian)
-- [5. Configure Obsidian](#5-configure-obsidian)
-- [6. Test p5.js locally](#6-test-p5js-locally)
-- [7. Browser](#7-browser)
-- [Before the first session](#before-the-first-session)
-- [What you do not need yet](#what-you-do-not-need-yet)
-
 ## 1. GitHub account
 
 You will use GitHub to keep a versioned copy of your work throughout the semester.
