@@ -10,26 +10,6 @@ Today we move through three kinds of execution:
 **Human → System**  
 **Human → Computer**
 
-- [🔴 HUMAN](#-human)
-- [What we will explore](#what-we-will-explore)
-- [1. What can an instruction be?](#1-what-can-an-instruction-be)
-  - [Specify](#specify)
-  - [Constrain](#constrain)
-  - [Produce an event](#produce-an-event)
-  - [Activate imagination](#activate-imagination)
-- [2. Experience a rule system](#2-experience-a-rule-system)
-- [3. From one rule to a system](#3-from-one-rule-to-a-system)
-- [4. Exercise: Human to Human](#4-exercise-human-to-human)
-  - [Author](#author)
-  - [Executor](#executor)
-  - [Compare](#compare)
-  - [Revise](#revise)
-- [5. Build a small rule system](#5-build-a-small-rule-system)
-- [6. Human to Computer](#6-human-to-computer)
-- [Session flow](#session-flow)
-- [What to keep for your journal](#what-to-keep-for-your-journal)
-- [Next session](#next-session)
-
 ## 🔴 HUMAN
 
 For this session, work without generative AI.

@@ -10,29 +10,6 @@ Instructions are not simply strict or open. They can sit anywhere on a spectrum:
 
 The interesting question is often where an author chooses to be precise and where they leave space for interpretation.
 
-- [Sol LeWitt: instruction as specification](#sol-lewitt-instruction-as-specification)
-- [Conditional Design: instruction as constraint](#conditional-design-instruction-as-constraint)
-- [George Brecht: instruction as event](#george-brecht-instruction-as-event)
-- [Alison Knowles: instruction as everyday action](#alison-knowles-instruction-as-everyday-action)
-- [Yoko Ono: instruction as imagination](#yoko-ono-instruction-as-imagination)
-- [Compare the approaches](#compare-the-approaches)
-- [From one rule to a system](#from-one-rule-to-a-system)
-  - [Example 1: points and lines](#example-1-points-and-lines)
-  - [Example 2: touching circles](#example-2-touching-circles)
-  - [Example 3: divide the page](#example-3-divide-the-page)
-  - [Example 4: collective system](#example-4-collective-system)
-- [Ingredients for writing a rule system](#ingredients-for-writing-a-rule-system)
-  - [Starting condition](#starting-condition)
-  - [Action](#action)
-  - [Relationship](#relationship)
-  - [Repetition](#repetition)
-  - [Variation](#variation)
-  - [Constraint](#constraint)
-  - [Condition](#condition)
-  - [Stopping rule](#stopping-rule)
-- [Questions for any generative system](#questions-for-any-generative-system)
-- [Explore further](#explore-further)
-
 
 ## Sol LeWitt: instruction as specification
 

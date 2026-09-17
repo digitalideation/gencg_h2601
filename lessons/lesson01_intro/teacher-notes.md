@@ -2,27 +2,6 @@
 
 These notes provide background, teaching prompts and possible directions for Session 1. They can also be shared with students who want to go deeper.
 
-- [Why this session exists](#why-this-session-exists)
-- [The instruction spectrum](#the-instruction-spectrum)
-- [Sol LeWitt: where is the work?](#sol-lewitt-where-is-the-work)
-- [Conditional Design: designing conditions](#conditional-design-designing-conditions)
-- [George Brecht: from image to event](#george-brecht-from-image-to-event)
-- [Alison Knowles: the ordinary as a generative system](#alison-knowles-the-ordinary-as-a-generative-system)
-- [Yoko Ono: when execution becomes imagination](#yoko-ono-when-execution-becomes-imagination)
-- [The five examples as a progression](#the-five-examples-as-a-progression)
-- [From one rule to a system](#from-one-rule-to-a-system)
-- [Useful vocabulary](#useful-vocabulary)
-- [Common student difficulties](#common-student-difficulties)
-  - ["I don't know what rule to make"](#i-dont-know-what-rule-to-make)
-  - [The rule becomes complicated immediately](#the-rule-becomes-complicated-immediately)
-  - [They describe a picture rather than a system](#they-describe-a-picture-rather-than-a-system)
-  - [They use randomness whenever something is unspecified](#they-use-randomness-whenever-something-is-unspecified)
-  - [They think unexpected execution means failure](#they-think-unexpected-execution-means-failure)
-- [Human to Human](#human-to-human)
-- [Human to Computer](#human-to-computer)
-- [Connection to later AI work](#connection-to-later-ai-work)
-- [Sources worth keeping open during class](#sources-worth-keeping-open-during-class)
-
 
 ## Why this session exists
 

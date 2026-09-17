@@ -2,32 +2,6 @@
 
 These notes provide background, teaching prompts and possible directions for Session 2. They can also be shared with anyone who wants to go deeper.
 
-- [Why this session exists](#why-this-session-exists)
-- [From repetition to variation](#from-repetition-to-variation)
-- [Vera Molnár: order and interruption](#vera-molnár-order-and-interruption)
-- [Truchet tiles: local states, global patterns](#truchet-tiles-local-states-global-patterns)
-- [10 PRINT: a tiny rule with large consequences](#10-print-a-tiny-rule-with-large-consequences)
-- [Generative Design: reading systems through code](#generative-design-reading-systems-through-code)
-- [The examples as a progression](#the-examples-as-a-progression)
-- [From one mark to a field](#from-one-mark-to-a-field)
-- [Variation is not randomness](#variation-is-not-randomness)
-  - [Systematic variation](#systematic-variation)
-  - [Alternation](#alternation)
-  - [Conditional variation](#conditional-variation)
-  - [Probabilistic variation](#probabilistic-variation)
-- [Breaking the pattern](#breaking-the-pattern)
-- [Useful vocabulary](#useful-vocabulary)
-- [Common difficulties](#common-difficulties)
-  - [The system becomes complicated immediately](#the-system-becomes-complicated-immediately)
-  - [Randomness is added everywhere](#randomness-is-added-everywhere)
-  - [Nested loops become abstract](#nested-loops-become-abstract)
-  - [The image is copied instead of the system](#the-image-is-copied-instead-of-the-system)
-  - [Too many variables change at once](#too-many-variables-change-at-once)
-- [Repetition in code](#repetition-in-code)
-- [Connection to later sessions](#connection-to-later-sessions)
-- [Connection to later AI work](#connection-to-later-ai-work)
-- [Sources worth keeping open during class](#sources-worth-keeping-open-during-class)
-
 ## Why this session exists
 
 Session 1 introduced the idea that a generative work can begin with a rule rather than an image.  

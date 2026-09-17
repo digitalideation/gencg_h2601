@@ -10,23 +10,6 @@ The aim is not simply to learn how to make things with code or AI.
 
 The aim is to learn how to **design systems, understand what they do, and make deliberate creative decisions with them.**
 
-- [How we work](#how-we-work)
-- [AI in this course](#ai-in-this-course)
-  - [🔴 HUMAN](#-human)
-  - [🟠 EXPLAIN](#-explain)
-  - [🟡 COLLABORATE](#-collaborate)
-  - [🟢 OPEN](#-open)
-- [The semester](#the-semester)
-- [What you will learn](#what-you-will-learn)
-- [Presentations](#presentations)
-- [Process journal](#process-journal)
-- [Assessment](#assessment)
-  - [Process \& Journal - 40%](#process--journal---40)
-  - [Participation \& Engagement - 30%](#participation--engagement---30)
-  - [Final Project - 30%](#final-project---30)
-- [Final project](#final-project)
-- [Getting started](#getting-started)
-
 ## How we work
 
 A recurring process throughout the course will be:
