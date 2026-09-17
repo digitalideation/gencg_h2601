@@ -125,7 +125,7 @@ Both use a small number of possible local states repeated across a larger field.
 
 With 10 PRINT the visual vocabulary is almost absurdly small:
 
-```text id="d3gruf"
+```text
 \    /
 ```
 
@@ -138,7 +138,7 @@ That is enough to produce a maze-like structure.
 
 The original Commodore 64 BASIC program is one line:
 
-```text id="1w3m54"
+```bash
 10 PRINT CHR$(205.5+RND(1)); : GOTO 10
 ```
 
@@ -169,7 +169,7 @@ Try changing only one parameter at a time.
 
 **Probability**
 
-```js id="4s0dmt"
+```js
 if (random() < 0.8) {
   // state A
 } else {
@@ -265,7 +265,7 @@ When building your own systems, it can help to distinguish different sources of 
 
 A value changes according to a predictable rule.
 
-```text id="q476cy"
+```text
 small → medium → large
 ```
 
@@ -279,13 +279,13 @@ For example:
 
 Two or more states repeat in sequence.
 
-```text id="0bb8hf"
+```text
 A B A B A B A B
 ```
 
 Or:
 
-```text id="10i9jy"
+```text
 A A B A A B A A B
 ```
 
@@ -293,7 +293,7 @@ A A B A A B A A B
 
 A rule changes when a condition becomes true.
 
-```text id="e581ws"
+```text
 if column is even → draw a circle
 else → draw a line
 ```
@@ -304,7 +304,7 @@ This is useful for introducing exceptions without losing the overall structure.
 
 A decision is made according to probability.
 
-```text id="7wmy72"
+```text
 70% → state A
 30% → state B
 ```
@@ -319,25 +319,25 @@ A useful way to develop a system is:
 
 Start with something regular.
 
-```text id="pfcyma"
+```text
 ○ ○ ○ ○ ○ ○ ○ ○
 ```
 
 Introduce systematic variation.
 
-```text id="q64dd4"
+```text
 ○ ◯ ◯ ◯ ◉ ◉ ◉ ◉
 ```
 
 Introduce an exception.
 
-```text id="hctj94"
+```text
 ○ ○ ○ ○ ● ○ ○ ○
 ```
 
 Introduce controlled randomness.
 
-```text id="fj8u17"
+```text
 ○ ● ○ ○ ● ○ ● ○
 ```
 
