@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+	xmlns:svg="http://www.w3.org/2000/svg"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+	version="1.0"
+	width="562"
+	height="162"
+	viewBox="-1 -1 562 162">
+	<title>Truchet Ordered Tiling</title>
+	<defs>
+		<polygon id="Northeast" points="0,0 20,0 20,20" style="fill:#000000;stroke:none" />
+	</defs>
+	<rect id="rect12213" width="160" height="160" x="0" y="0"
+		style="fill:none;stroke:#000000;stroke-width:1" />
+	<use xlink:href="#rect12213" transform="translate(200,0)" />
+	<use xlink:href="#rect12213" transform="translate(400,0)" />
+	<g id="g12189">
+		<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,20,20)" />
+		<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,40,20)" />
+		<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,60,20)" />
+		<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,80,20)" />
+		<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,100,20)" />
+		<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,120,20)" />
+		<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,140,20)" />
+		<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,160,20)" />
+	</g>
+	<use xlink:href="#g12189" transform="translate(0,20)" />
+	<use xlink:href="#g12189" transform="translate(0,40)" />
+	<use xlink:href="#g12189" transform="translate(0,60)" />
+	<use xlink:href="#g12189" transform="translate(0,80)" />
+	<use xlink:href="#g12189" transform="translate(0,100)" />
+	<use xlink:href="#g12189" transform="translate(0,120)" />
+	<use xlink:href="#g12189" transform="translate(0,140)" />
+	<g id="g031">
+		<g id="g12676">
+			<use xlink:href="#Northeast" transform="matrix(0,-1,1,0,200,20)" />
+			<use xlink:href="#Northeast" transform="matrix(0,-1,1,0,240,20)" />
+			<use xlink:href="#Northeast" transform="matrix(0,-1,1,0,280,20)" />
+			<use xlink:href="#Northeast" transform="matrix(0,-1,1,0,320,20)" />
+			<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,240,20)" />
+			<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,280,20)" />
+			<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,320,20)" />
+			<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,360,20)" />
+		</g>
+		<use xlink:href="#g12676" transform="matrix(-1,0,0,-1,560,40)" />
+	</g>
+	<use xlink:href="#g031" transform="translate(0,40)" />
+	<use xlink:href="#g031" transform="translate(0,80)" />
+	<use xlink:href="#g031" transform="translate(0,120)" />
+	<g id="g12740">
+		<g id="g12712">
+			<use xlink:href="#Northeast" transform="matrix(0,-1,1,0,400,20)" />
+			<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,440,20)" />
+			<use xlink:href="#Northeast" transform="matrix(0,1,-1,0,460,0)" />
+			<use xlink:href="#Northeast" transform="translate(460,0)" />
+		</g>
+		<use xlink:href="#g12712" transform="translate(80,0)" />
+		<g id="g12732">
+			<use xlink:href="#Northeast" transform="translate(400,20)" />
+			<use xlink:href="#Northeast" transform="matrix(0,1,-1,0,440,20)" />
+			<use xlink:href="#Northeast" transform="matrix(-1,0,0,-1,460,40)" />
+			<use xlink:href="#Northeast" transform="matrix(0,-1,1,0,460,40)" />
+		</g>
+		<use xlink:href="#g12732" transform="translate(80,0)" />
+	</g>
+	<use xlink:href="#g12740" transform="matrix(1,0,0,-1,0,80)" />
+	<use xlink:href="#g12740" transform="translate(0,80)" />
+	<use xlink:href="#g12740" transform="matrix(1,0,0,-1,0,160)" />
+</svg>

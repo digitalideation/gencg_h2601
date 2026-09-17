@@ -30,7 +30,6 @@ Today we move through three kinds of execution:
 - [What to keep for your journal](#what-to-keep-for-your-journal)
 - [Next session](#next-session)
 
-
 ## 🔴 HUMAN
 
 For this session, work without generative AI.
@@ -77,7 +76,7 @@ But even precise instructions leave questions:
 
 **Conditional Design**
 
-The book *Conditional Design* is an additional course reference for this session. A PDF copy will be linked here after it has been added to the repository.
+The book _Conditional Design_ is an additional course reference for this session. A PDF copy will be linked here after it has been added to the repository.
 
 Instead of defining the final image, rules can define what participants are allowed to do.  
 The result emerges while people act inside those constraints.
@@ -250,8 +249,8 @@ If it becomes difficult to explain, simplify it.
 
 Now we change executor.  
 Instead of giving instructions to another person, we give them to a computer.  
-A computer does not interpret an instruction in the same way a person does. 
- 
+A computer does not interpret an instruction in the same way a person does.
+
 Consider:
 
 > Draw a circle near the centre of the page.
@@ -348,6 +347,6 @@ In Session 2 we take simple rules and introduce:
 A single rule can produce one result.  
 Repeating and varying rules begins to produce a generative system.
 
-→ [Instruction examples and references](./examples.md)
-
-→ [Deeper notes on this session](./teacher-notes-h.md)
+→ [Instruction examples and references](./examples.md)  
+→ [Deeper notes on this session](./teacher-notes-h.md)  
+→ [Next session: Repetition, Loops & Variation](../lesson02_repetition/)

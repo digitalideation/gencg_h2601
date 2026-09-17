@@ -21,8 +21,8 @@ The aim is to learn how to **design systems, understand what they do, and make d
 - [Presentations](#presentations)
 - [Process journal](#process-journal)
 - [Assessment](#assessment)
-  - [Process & Journal - 40%](#process--journal---40)
-  - [Participation & Engagement - 30%](#participation--engagement---30)
+  - [Process \& Journal - 40%](#process--journal---40)
+  - [Participation \& Engagement - 30%](#participation--engagement---30)
   - [Final Project - 30%](#final-project---30)
 - [Final project](#final-project)
 - [Getting started](#getting-started)
@@ -91,10 +91,10 @@ We have **12 sessions**.
 
 The exact exercises may evolve, but the course follows this general progression:
 
-1. **Instructions & Systems**
+1. **[Instructions & Systems](./lessons/lesson01_intro/)**
    Rules, procedures, interpretation and human computation.
 
-2. **Repetition & Variation**
+2. **[Repetition & Variation](./lessons/lesson02_repetition/)**
    Iteration, patterns, controlled randomness and generative variation.
 
 3. **Change Over Time**
