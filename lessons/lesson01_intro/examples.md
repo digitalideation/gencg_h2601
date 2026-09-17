@@ -415,5 +415,5 @@ When looking at an existing system or inventing your own, ask:
 - [Sprouts](https://nrich.maths.org/2413)
 - [p5.js Reference](https://p5js.org/reference/)
 
+→ [Notes on these examples](./teacher-notes.md)  
 → [Back to Session 1](./README.md)  
-→ [Deeper notes on these examples](./teacher-notes.md)

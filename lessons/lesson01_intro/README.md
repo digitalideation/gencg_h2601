@@ -328,5 +328,5 @@ A single rule can produce one result.
 Repeating and varying rules begins to produce a generative system.
 
 → [Instruction examples and references](./examples.md)  
-→ [Deeper notes on this session](./teacher-notes-h.md)  
+→ [Notes on this session](./teacher-notes-h.md)  
 → [Next session: Repetition, Loops & Variation](../lesson02_repetition/)

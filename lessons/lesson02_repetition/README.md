@@ -302,4 +302,4 @@ In Session 3 we introduce **change over time**.
 Instead of asking only how a system varies across space, we will ask how its values, states and behaviour can change while the program is running.
 
 → [Examples and references](./examples.md)  
-→ [Teacher notes](./teacher-notes.md)
+→ [Notes on this session](./teacher-notes.md)

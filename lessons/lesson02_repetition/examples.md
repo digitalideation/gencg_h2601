@@ -363,4 +363,5 @@ Ask:
 The goal is not to copy the appearance of an example.
 The goal is to understand the **system that could produce it**.
 
+→ [Notes on this session](./teacher-notes.md)  
 → [Back to Session 2](./README.md)
