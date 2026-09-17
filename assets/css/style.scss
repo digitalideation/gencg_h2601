@@ -42,42 +42,49 @@ body {
   transform: translateY(0);
 }
 
-.page-header {
+.site-masthead {
   color: #fff;
-  text-align: center;
-  background: #000 url("../images/header.gif") no-repeat center fixed;
-  background-size: cover;
+  background: #111;
+  border-bottom: 1px solid #2e3436;
 }
 
-.project-name {
-  margin-top: 0;
-  margin-bottom: 0.1rem;
-  background-color: #000;
+.masthead-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: min(100% - 3rem, 84rem);
+  min-height: 3.75rem;
+  margin: 0 auto;
 }
 
-.project-tagline {
-  display: table;
-  margin: 0.75rem auto 1.5rem;
-  padding: 0.1rem 0.35rem;
+.masthead-title,
+.masthead-link {
   color: #fff;
-  background-color: #000;
-  opacity: 1;
+  text-decoration: none;
 }
 
-.btn {
-  background-color: rgba(0, 0, 0, 0.8);
+.masthead-title {
+  font-weight: 700;
 }
 
-.btn:hover {
-  background-color: rgba(50, 50, 50, 0.9);
+.masthead-link {
+  color: #c9d1d4;
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+
+.masthead-title:hover,
+.masthead-link:hover {
+  color: #fff;
 }
 
 .site-shell {
   display: grid;
   grid-template-areas: "content toc";
   grid-template-columns: minmax(0, 1fr) minmax(13rem, 15rem);
-  gap: clamp(2rem, 5vw, 4rem);
-  width: min(100% - 3rem, 74rem);
+  gap: clamp(2rem, 4vw, 3rem);
+  width: min(100% - 3rem, 84rem);
   margin: 0 auto;
   padding: 3.5rem 0 4rem;
   align-items: start;
@@ -261,18 +268,6 @@ h3:hover .heading-anchor,
   margin-top: 4rem;
 }
 
-@media screen and (min-width: 64em) {
-  .page-header {
-    padding: 3rem 6rem;
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .page-header {
-    padding: 3rem 2rem;
-  }
-}
-
 @media screen and (max-width: 56rem) {
   .site-shell {
     grid-template-areas:
@@ -318,8 +313,9 @@ h3:hover .heading-anchor,
 }
 
 @media screen and (max-width: 42em) {
-  .page-header {
-    padding: 1.5rem 1rem;
+  .masthead-inner {
+    width: min(100% - 2rem, 42rem);
+    min-height: 3.25rem;
   }
 
   .site-shell {
@@ -343,7 +339,7 @@ h3:hover .heading-anchor,
 }
 
 @media print {
-  .page-header .btn,
+  .site-masthead,
   .page-toc,
   .heading-anchor,
   .skip-link {
