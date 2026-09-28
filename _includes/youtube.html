@@ -8,7 +8,7 @@
   "
 >
   <iframe
-    src="https://youtube.com{{ include.id }}"
+    src="https://youtube.com/embed/{{ include.id }}"
     style="
       position: absolute;
       top: 0;
@@ -17,6 +17,16 @@
       height: auto;
       border: 0;
     "
+    allow="
+      accelerometer;
+      autoplay;
+      clipboard-write;
+      encrypted-media;
+      gyroscope;
+      picture-in-picture;
+      web-share;
+    "
+    referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
   ></iframe>
 </div>
