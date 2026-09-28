@@ -1,0 +1,376 @@
+# Session 3: Change Over Time
+> A system can vary across space. It can also vary across time.  
+In Session 2 we repeated rules across rows, grids and fields. Today we let values change while the program is running.
+
+The main progression is:  
+**static state → change → repetition over time → cycles → rhythm → time as input**
+
+## 🟠 EXPLAIN
+Generative AI can now be used to **help you understand**, but not to produce the solution for you.
+
+You can ask AI to:
+- explain a concept
+- explain a piece of code
+- help interpret an error message
+- explain why something behaves differently from what you expected
+- compare two approaches
+
+Do not ask AI to:
+- write the complete exercise
+- generate your clock or timepiece
+- replace your first attempt
+- make creative decisions for you
+
+Before asking for help, try to describe:
+
+> **What did I expect to happen, and what happened instead?**
+
+The aim is to begin using AI as a learning partner while keeping the system and its decisions understandable.
+
+## What we will explore
+By the end of the session, you should be able to:
+- understand how `draw()` creates continuous change
+- use variables to store and update values
+- use `frameCount` and `millis()` as sources of time
+- create movement and gradual change
+- create repeating cycles
+- create simple rhythms and timed events
+- use real-world time as input
+- translate time into visual behaviour
+- explain how a temporal system changes from one moment to the next
+
+→ [Examples and references](./examples.md)
+
+## 1. From repetition in space to repetition in time
+In Session 2 we used loops to repeat an action across space:
+
+```js
+for (let x = 20; x < width; x += 40) {
+  circle(x, 100, 20);
+}
+```
+
+The repetition happens across the canvas.
+
+In p5.js, `draw()` gives us another kind of repetition:
+
+```js
+function draw() {
+  circle(100, 100, 20);
+}
+```
+
+The same instruction is executed again and again over time.
+
+A useful comparison is:
+
+**`for` loop → repeat across space**  
+**`draw()` → repeat across time**
+
+But repetition alone does not create visible change.
+
+Something needs to change between one execution and the next.
+
+## 2. Change one value
+Begin with one variable:
+
+```js
+let x = 20;
+
+function setup() {
+  createCanvas(600, 400);
+}
+
+function draw() {
+  background(240);
+
+  circle(x, 200, 30);
+
+  x = x + 1;
+}
+```
+
+The circle moves because `x` has a different value each time `draw()` runs.
+
+Try changing:
+- starting position
+- amount of change
+- direction
+- size instead of position
+- colour instead of size
+- several properties at the same time
+
+Then return to changing only one property.
+
+Ask:
+
+> **What is changing, and what remains constant?**
+
+## 3. State
+A variable can remember something from one frame to the next.
+
+```js
+let size = 20;
+
+function draw() {
+  background(240);
+
+  circle(width / 2, height / 2, size);
+
+  size = size + 1;
+}
+```
+
+`size` is part of the current **state** of the system.
+
+The next frame depends on the value produced by the previous frame.
+
+This gives us a simple relationship:
+
+**current state → rule → next state**
+
+State will become increasingly important later when we work with behaviour and autonomous systems.
+
+For now, keep it simple.
+
+## 4. Frame count and elapsed time
+p5.js gives us several ways to know that time is passing.
+
+### `frameCount`
+`frameCount` tells us how many frames have been drawn:
+
+```js
+circle(frameCount, 200, 30);
+```
+
+It is useful for creating changes based on the progression of the animation.
+
+### `millis()`
+`millis()` tells us how many milliseconds have passed since the sketch started:
+
+```js
+let t = millis();
+```
+
+Unlike `frameCount`, this refers to actual elapsed time.
+
+Try displaying these values on screen while the sketch is running.
+
+Observe how they change.
+
+## 5. Cycles
+Not all change needs to continue forever in one direction.
+
+Many systems repeat:
+
+- breathing
+- waves
+- pendulums
+- blinking
+- seasons
+- rotation
+- day and night
+- clocks
+
+A sine wave is useful for creating smooth repeating change:
+
+```js
+let size = 100 + sin(frameCount * 0.05) * 50;
+
+circle(width / 2, height / 2, size);
+```
+
+The value moves repeatedly between two extremes.
+
+Try connecting the cycle to:
+- position
+- size
+- rotation
+- opacity
+- colour
+- spacing
+
+Change the speed and range separately.
+
+Ask:
+
+> **What determines the rhythm of the system?**
+
+## 6. Rhythm and events
+A temporal system does not need to change continuously.
+
+Something can also happen periodically.
+
+For example:
+
+```js
+if (frameCount % 60 === 0) {
+  // something happens
+}
+```
+
+This creates an event approximately every 60 frames.
+
+Experiment with several rhythms:
+
+```text
+every 30 frames
+every 60 frames
+every 120 frames
+```
+
+What happens when several rhythms exist at the same time?
+
+Think about:
+- repetition
+- intervals
+- synchronisation
+- phase
+- accumulation
+- reset
+
+A temporal composition can be built from events as well as movement.
+
+## 7. Time as input
+Until now, time has mostly been generated by the sketch itself.
+
+We can also use real-world time.
+
+p5.js gives us:
+
+```js
+hour()
+minute()
+second()
+```
+
+For example:
+
+```js
+let s = second();
+let size = map(s, 0, 59, 10, 300);
+
+circle(width / 2, height / 2, size);
+```
+
+The visual system is now connected to the current time.
+
+The question is no longer only:
+
+> How do I animate this?
+
+It becomes:
+
+> **How should time be translated into visual form or behaviour?**
+
+## 8. Design a timepiece
+A clock does not need to look like a clock.
+
+Create a system that communicates **time or the passage of time**.
+
+Begin on paper.
+
+Decide what aspect of time matters in your system:
+- seconds
+- minutes
+- hours
+- cycles
+- duration
+- accumulation
+- repetition
+- waiting
+- change
+- synchronisation
+
+Then decide how that information affects the visual system.
+
+For example:
+
+```text
+seconds → rotation
+minutes → number of elements
+hours → colour or composition
+```
+
+Or:
+
+```text
+passing time → accumulation of marks
+```
+
+Or:
+
+```text
+one minute → one complete visual cycle
+```
+
+Your timepiece might:
+- show precise time
+- show approximate time
+- reveal only one unit of time
+- accumulate instead of resetting
+- become more complex during the day
+- gradually disappear
+- use several simultaneous rhythms
+- deliberately make time difficult to read
+
+Do not begin by drawing a conventional clock face.
+
+Begin by asking:
+
+> **What does time do in my system?**
+
+→ [Clock and timepiece references](./clock.md)
+
+## 9. Develop the system gradually
+A useful process is:
+
+**one changing value → one relationship → one cycle → one temporal system**
+
+Save intermediate versions.
+
+For example:
+
+1. make something move
+2. make the movement repeat
+3. connect another property to the same cycle
+4. introduce another rhythm
+5. connect the system to real time
+
+Do not add complexity before you understand the previous version.
+
+Useful questions:
+- What changes from one frame to the next?
+- What remembers its previous value?
+- What repeats?
+- What resets?
+- What is continuous?
+- What happens as an event?
+- Which values depend on actual time?
+- Could I explain the system without showing the code?
+
+## What to keep for your journal
+Document the development of the temporal system. Keep:
+- your first sketch or diagram
+- a simple changing-value experiment
+- a cyclical or rhythmic experiment
+- your first timepiece concept
+- at least two iterations of the timepiece
+- screenshots or short recordings showing different states
+- one unexpected behaviour or mistake that taught you something
+
+If you used AI in **🟠 EXPLAIN** mode, add a short note:
+- What did you ask about?
+- What did the explanation help you understand?
+- What did you change afterwards?
+
+You do not need to include complete prompt histories.
+
+## Next session
+In Session 4 we move from systems that **change over time** to systems that begin to **behave**.
+
+Instead of controlling every change directly, we will give elements simple rules and allow their interactions to produce larger behaviours.
+
+→ [Examples and references](./examples.md)  
+→ [Clock and timepiece references](./clock.md)  
+→ [Notes on this session](./teacher-notes.md)

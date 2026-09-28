@@ -80,7 +80,7 @@ The exact exercises may evolve, but the course follows this general progression:
 2. **[Repetition & Variation](./lessons/lesson02_repetition/)**
    Iteration, patterns, controlled randomness and generative variation.
 
-3. **Change Over Time**
+3. **[Change Over Time](./lessons/lesson3_time/)**
    Animation, state, cycles, rhythm and temporal systems.
 
 4. **Behaviour & Agency**
