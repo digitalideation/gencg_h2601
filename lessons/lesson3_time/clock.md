@@ -142,7 +142,7 @@ It is useful to think about:
 
 See also [A Million Times](https://www.humanssince1982.com/a-million-times-san-jose-2021).
 
-<iframe src="https://player.vimeo.com/video/52798481?h=ba2c0cd8e2&color=ffffff" width="100%" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/52798481?h=ba2c0cd8e2&color=ffffff" width="100%" style="aspect-ratio: 16 / 9" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 [Watch _ClockClock White_ by Humans since 1982 on Vimeo](https://vimeo.com/52798481)
 
@@ -172,7 +172,7 @@ A form gradually grows on the floor.
 
 Time becomes accumulation.
 
-<iframe src="https://player.vimeo.com/video/606592643?h=295f4680bd&title=0&byline=0" width="100%" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/606592643?h=295f4680bd&title=0&byline=0" width="100%" style="aspect-ration 16 / 9" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 [Watch the video by Albin Karlsson on Vimeo](https://vimeo.com/606592643)
 
@@ -295,7 +295,7 @@ second();
 
 and mapping these values to visual properties.
 
-<iframe src="https://preview.p5js.org/guma/embed/yZYaRwKAz" width="100%" height="450" frameborder="0"></iframe>
+<iframe src="https://preview.p5js.org/guma/embed/yZYaRwKAz" width="100%" height="400" frameborder="0"></iframe>
 
 [_Simple Clock in p5.js_](https://editor.p5js.org/guma/sketches/yZYaRwKAz)
 
