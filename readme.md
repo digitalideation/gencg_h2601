@@ -83,7 +83,7 @@ The exact exercises may evolve, but the course follows this general progression:
 3. **[Change Over Time](./lessons/lesson3_time/)**
    Animation, state, cycles, rhythm and temporal systems.
 
-4. **Behaviour & Agency**
+4. **[Behaviour & Agency](./lessons/lesson4_behaviour/)**
    Autonomous systems, feedback, agents and emergent behaviour.
 
 5. **Parameter Spaces**
