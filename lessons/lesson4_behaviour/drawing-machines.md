@@ -551,7 +551,7 @@ A drawing machine can begin with something extremely simple.
 
 ### Lissajous and linked movement
 
-<iframe src="https://preview.p5js.org/guma/embed/gJAZwbKlG" width="100%" height="400" frameborder="0"></iframe>
+<iframe src="https://preview.p5js.org/guma/embed/gJAZwbKlG" width="100%" height="500" frameborder="0"></iframe>
 
 [_Lissajous in p5.js_](https://editor.p5js.org/guma/sketches/gJAZwbKlG)
 
@@ -568,7 +568,7 @@ Then change one relationship.
 
 ### Lerp and delay
 
-<iframe src="https://preview.p5js.org/guma/embed/E4Qwdkb4Z" width="100%" height="400" frameborder="0"></iframe>
+<iframe src="https://preview.p5js.org/guma/embed/E4Qwdkb4Z" width="100%" height="500" frameborder="0"></iframe>
 
 [_Lerp and delay in p5.js_](https://editor.p5js.org/guma/sketches/E4Qwdkb4Z)
 
