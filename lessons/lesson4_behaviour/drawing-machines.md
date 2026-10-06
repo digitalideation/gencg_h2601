@@ -449,8 +449,8 @@ ask:
 
 Perhaps it changes direction frequently.  
 Perhaps it overshoots its target.  
-Perhaps it never completely stops moving. 
- 
+Perhaps it never completely stops moving.
+
 The character emerges from the system.
 
 ## Make a drawing machine
@@ -590,7 +590,7 @@ Small changes in responsiveness can produce very different drawing characteristi
 
 ## Generative Design
 
-The **P_2_2** section of _Generative Design / Generative Gestaltung_ contains several useful examples involving agents, wandering paths, connected forms, aggregation, packing and linked pendulums.
+The **P\_2\_2** section of _Generative Design / Generative Gestaltung_ contains several useful examples involving agents, wandering paths, connected forms, aggregation, packing and linked pendulums.
 
 These are particularly useful because the final drawing emerges from the behaviour of the system.
 
