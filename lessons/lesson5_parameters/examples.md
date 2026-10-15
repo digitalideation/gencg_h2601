@@ -5,9 +5,9 @@ A generator describes more than one possible outcome. Its parameters, ranges and
 While browsing, ask: **What stays fixed? What can change? Which combinations are possible, and which are excluded?** The suggested experiments are starting points. They are not additional assignments to complete one by one.
 
 ## Max Bill: variations on a theme
-<img src="../../assets/images/maxbill_15variations.jpg" alt="Overview of Max Bill's Fifteen Variations on One Theme from the course archive" style="width:100%;height:auto;">
+<img src="../../assets/images/maxbill_15variations.jpg" alt="Overview of Max Bill's Fifteen Variations on One Theme" style="width:100%;height:auto;">
 
-_[Max Bill, Fifteen Variations on One Theme, 1935-1938](https://www.mercedes-benz.art/en/artwork/quinze-variations-sur-un-meme-theme-15-variations-on-one-theme-max-bill-1935-38-2/). Reproduction from the existing course archive._
+_[Max Bill, Fifteen Variations on One Theme, 1935-1938](https://www.mercedes-benz.art/en/artwork/quinze-variations-sur-un-meme-theme-15-variations-on-one-theme-max-bill-1935-38-2/)._
 
 Bill's series explores a shared geometric construction through a theme and fifteen variations. The collection documentation describes a progression between equilateral polygons while retaining the side length. This is not a software parameter study, but it is a useful reference for asking how different works can share an underlying construction.
 
@@ -55,7 +55,7 @@ Read the supplied project before copying individual files. Some examples use sup
 ## Matthias Dörfelt: a recognisable family
 <img src="./images/weird_faces.jpg" alt="A collection of algorithmically generated faces from Matthias Dorfelt's Weird Faces" style="width:100%;height:auto;">
 
-_[Matthias Dörfelt, Weird Faces, 2012-2013](https://www.mokafolio.de/works/Weird-Faces). Image retained from the earlier course material._
+_[Matthias Dörfelt, Weird Faces, 2012-2013](https://www.mokafolio.de/works/Weird-Faces)._
 
 Dörfelt describes _Weird Faces_ as an attempt to combine illustration with programming. The faces are produced through algorithmic rules but retain the individual character of his drawing practice.
 
@@ -74,7 +74,7 @@ Draw three related characters before coding. Label the differences that could be
 ## Mary Huang: TYPEFACE
 <img src="./images/typeface01.png" alt="Typographic variations from Mary Huang's TYPEFACE project" style="width:100%;height:auto;">
 
-_[Mary Huang, TYPEFACE, 2010](https://mary-huang.com/projects/typeface/typeface.html). Image retained from the earlier course material._
+_[Mary Huang, TYPEFACE, 2010](https://mary-huang.com/projects/typeface/typeface.html)._
 
 _TYPEFACE_ translates facial dimensions into generative type design. Huang built the project using Processing and OpenCV, drawing the letters with trigonometric functions.
 
