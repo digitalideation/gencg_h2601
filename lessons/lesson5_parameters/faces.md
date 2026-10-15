@@ -1,7 +1,7 @@
 # Session 5: Faces / Parametric Generators
 <img src="./images/weird_faces.jpg" alt="Algorithmically generated drawings from Matthias Dorfelt's Weird Faces" style="width:100%;height:auto;">
 
-_[Matthias Dörfelt, Weird Faces, 2012-2013](https://www.mokafolio.de/works/Weird-Faces). Image retained from the earlier course material._
+_[Matthias Dörfelt, Weird Faces, 2012-2013](https://www.mokafolio.de/works/Weird-Faces)._
 
 How much can a face change while it still belongs to the same family? A generator makes this question quite concrete: instead of drawing every version separately, we design the parts, relationships and variations that can produce them.
 
@@ -57,16 +57,16 @@ Which parts seem stable? Which vary? Your interpretation can suggest a system of
 ### Lenny Face Generator: a small vocabulary
 <img src="./images/lenny.jpg" alt="Text-based face combinations from the Lenny Face Generator" loading="lazy" style="width:100%;height:auto;">
 
-_[Lenny Face Generator](https://lenny-face-generator.textsmilies.com/). Image from the earlier course collection._
+_[Lenny Face Generator](https://lenny-face-generator.textsmilies.com/)._
 
 This generator lets you combine choices for eyes, mouth and ears. It is a simple example of discrete parameters. A few reusable parts can support many combinations, and not every combination needs to look convincing.
 
 Try defining your own tiny vocabulary before building a more elaborate character system. Which parts are interchangeable, and which combinations need a constraint?
 
 ### Pareidolia: reading a face into a pattern
-<img src="./images/jabba.jpg" alt="Found-face example retained from the course archive" loading="lazy" style="width:100%;height:auto;">
+<img src="./images/jabba.jpg" alt="An arrangement of shapes suggesting a face" loading="lazy" style="width:100%;height:auto;">
 
-_Found-face reference from the earlier course archive. The original individual image credit was not recorded; the earlier page linked to the [Pareidolia community collection](https://www.reddit.com/r/Pareidolia/)._
+_Pareidolia: a face suggested by an arrangement of shapes. [Explore more examples](https://www.reddit.com/r/Pareidolia/)._
 
 Faces can be suggested by very little information. Try moving two dots and one line around a rectangle. When does the arrangement begin to read as a face, and when does that reading disappear?
 
@@ -75,7 +75,7 @@ This is a useful design question even without a realistic head or detailed featu
 ### Mary Huang: TYPEFACE
 <img src="./images/typeface01.png" alt="Generative letterforms from Mary Huang's TYPEFACE project" loading="lazy" style="width:100%;height:auto;">
 
-_[Mary Huang, TYPEFACE, 2010](https://mary-huang.com/projects/typeface/typeface.html). Image from the earlier course collection._
+_[Mary Huang, TYPEFACE, 2010](https://mary-huang.com/projects/typeface/typeface.html)._
 
 _TYPEFACE_ maps facial dimensions to generative letterforms. Huang describes a system made in Processing and OpenCV, with letters drawn using trigonometric functions.
 
@@ -87,7 +87,7 @@ These works are references to discuss, not software to install for this session.
 ### Heather Dewey-Hagborg: Stranger Visions
 <img src="./images/stranger_visions.jpg" alt="Portrait sculptures and collected material from Heather Dewey-Hagborg's Stranger Visions" loading="lazy" style="width:100%;height:auto;">
 
-_[Heather Dewey-Hagborg, Stranger Visions](https://deweyhagborg.com/projects/stranger-visions). Image from the earlier course collection._
+_[Heather Dewey-Hagborg, Stranger Visions](https://deweyhagborg.com/projects/stranger-visions)._
 
 Dewey-Hagborg used genetic material from discarded objects to generate speculative portrait sculptures. The artist frames the work as a critique of biological surveillance and genetic determinism, and discusses limitations and bias in DNA phenotyping.
 
@@ -96,7 +96,7 @@ These are not verified reconstructions of the people who left the material. For 
 ### YesYesNo / Zach Lieberman: Más Que la Cara
 <img src="./images/mas.jpg" alt="Interactive graphic masks from Mas Que la Cara" loading="lazy" style="width:100%;height:auto;">
 
-_[Más Que la Cara - project account by Zach Lieberman](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0). Image from the earlier course collection._
+_[Más Que la Cara - project account by Zach Lieberman](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0)._
 
 The installation turns tracked facial movement into changing graphic masks. The project account also documents sketches, physical mask workshops and the development of its visual language.
 
@@ -105,7 +105,7 @@ This is useful for looking at the relationship between a changing input and a de
 ### Matthias Dörfelt: Face Trade
 <img src="./images/face_trade.jpg" alt="Face Trade art vending machine by Matthias Dorfelt" loading="lazy" style="width:100%;height:auto;">
 
-_[Face Trade - artist statement in the ISEA archive](https://www.isea-symposium-archives.org/art-events/face-trade-by-matthias-dorfelt/). Image from the earlier course collection._
+_[Face Trade - artist statement in the ISEA archive](https://www.isea-symposium-archives.org/art-events/face-trade-by-matthias-dorfelt/)._
 
 _Face Trade_ exchanges a generated drawing for a photograph of the participant. The artist statement describes the photograph being stored on the Ethereum blockchain as part of that transaction.
 
@@ -116,12 +116,12 @@ The generator is now part of a social exchange. What does the participant receiv
 
 [Watch Drawing faces instructed by facial recognition - Matthew Plummer-Fernandez](https://vimeo.com/69694262)
 
-Use this earlier reference to discuss the relationship between making a drawing and having it interpreted by a recognition system. Does the drawing satisfy a person, a detector, or both? The video link remains available as a fallback where the embedded player is not shown.
+Use this work to discuss the relationship between making a drawing and having it interpreted by a recognition system. Does the drawing satisfy a person, a detector, or both?
 
 ### DeepPrivacy: generated replacements
 <img src="./images/deep_privacy.gif" alt="Face replacement examples from the DeepPrivacy research project" loading="lazy" style="width:100%;height:auto;">
 
-_[DeepPrivacy - Håkon Hukkelås, Rudolf Mester and Frank Lindseth](https://github.com/hukkelas/DeepPrivacy). Demonstration retained from the earlier course collection._
+_[DeepPrivacy - Håkon Hukkelås, Rudolf Mester and Frank Lindseth](https://github.com/hukkelas/DeepPrivacy)._
 
 DeepPrivacy is a research project that uses a generative adversarial network for face anonymisation. It is a useful contrast with a small generator whose geometry we define directly: here a learned model produces replacement imagery.
 
@@ -136,18 +136,18 @@ This real-time face-substitution experiment is an earlier example of tracking an
 
 Ask what changes when a replacement follows a person's movement. Which information carries the expression, and which gives the replacement its appearance?
 
-## An earlier p5.js starting point
-<img src="./images/facemesh.jpg" alt="Facial landmark experiment from the earlier course's p5.js examples" loading="lazy" style="width:100%;height:auto;">
+## Face tracking: an optional extension
+<img src="./images/facemesh.jpg" alt="Facial landmarks displayed in a p5.js sketch" loading="lazy" style="width:100%;height:auto;">
 
-[MediaPipe Face Mesh in p5.js - earlier course sketch](https://editor.p5js.org/guma/sketches/IAlxLpyRd)
+[MediaPipe Face Mesh in p5.js](https://editor.p5js.org/guma/sketches/IAlxLpyRd)
 
-This is retained as an optional historical example, not a required starter for Session 5. Its browser permissions and dependencies need checking before it is used in a current project. Begin with manually chosen parameters; there is no need to solve face tracking in order to make a face generator.
+Face tracking is an optional direction, not a required part of Session 5. Begin with manually chosen parameters; there is no need to solve face tracking in order to make a face generator. Check the sketch's dependencies and camera permissions before using it in a new project.
 
 If an experiment later uses camera input, work with consent and do not publish or upload another person's image without their agreement.
 
 ## Keep exploring
-The earlier collection also included these references. They remain here for browsing rather than as extra requirements:
-- [Additional visual reference from the previous edition - Instagram](https://www.instagram.com/p/CUqCDq8Jpff/) (may require sign-in; individual attribution was not recorded)
+Further references for browsing, not extra requirements:
+- [Additional visual reference - Instagram](https://www.instagram.com/p/CUqCDq8Jpff/) (may require sign-in)
 - [FaceShift experiments by Kyle McDonald - CreativeApplications](https://www.creativeapplications.net/sound/faceshift-studio-experiments-by-kyle-mcdonald/)
 - [Scramble Suit face tracking - CreativeApplications](https://www.creativeapplications.net/openframeworks/scramble-suit-face-tracking-openframeworks/)
 - [Generative Design - p5.js code package](https://github.com/generative-design/Code-Package-p5.js)
