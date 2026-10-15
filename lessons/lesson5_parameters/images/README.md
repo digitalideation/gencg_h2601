@@ -8,11 +8,11 @@ These files are copied unchanged from the existing `main` branch, `lessons/lesso
 - `stranger_visions.jpg`: Heather Dewey-Hagborg, [Stranger Visions](https://deweyhagborg.com/projects/stranger-visions). The original large file is retained without recompression.
 - `mas.jpg`: YesYesNo / Zach Lieberman, [Más Que la Cara](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0).
 - `deep_privacy.gif`: [DeepPrivacy](https://github.com/hukkelas/DeepPrivacy) research demonstration.
-- `facemesh.jpg`: [earlier course Face Mesh sketch](https://editor.p5js.org/guma/sketches/IAlxLpyRd).
+- `facemesh.jpg`: [Face Mesh sketch](https://editor.p5js.org/guma/sketches/IAlxLpyRd).
 - `lenny.jpg`: [Lenny Face Generator](https://lenny-face-generator.textsmilies.com/).
 
 ## Attribution gaps inherited from the earlier collection
-- `jabba.jpg`: the earlier page linked only to the [Pareidolia community](https://www.reddit.com/r/Pareidolia/), not an individual image author. This gap is stated in the visible caption.
+- `jabba.jpg`: the earlier page linked only to the [Pareidolia community](https://www.reddit.com/r/Pareidolia/), not an individual image author. The course caption describes the image without claiming an individual source; the attribution gap remains recorded here.
 - `ig.jpg`: retained for continuity but not embedded in the new pages. The earlier source is [this Instagram post](https://www.instagram.com/p/CUqCDq8Jpff/); individual attribution has not been established.
 
 The Max Bill reproduction used by `../examples.md` remains in the existing shared file `../../../assets/images/maxbill_15variations.jpg`. It is not duplicated here.
