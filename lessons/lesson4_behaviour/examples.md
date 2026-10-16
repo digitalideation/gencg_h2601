@@ -25,7 +25,7 @@ While looking through these examples, ask:
 
 _Selected P_2_2 examples from Generative Design._
 
-The **P_2_2** section of _Generative Design / Generative Gestaltung_ is one of the most useful practical references for this session.
+The **P\_2\_2** section of _Generative Design / Generative Gestaltung_ is one of the most useful practical references for this session.
 
 Instead of concentrating on grids and static variation, these examples introduce elements that **move, respond, accumulate and interact**.
 
