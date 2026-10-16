@@ -86,10 +86,10 @@ The exact exercises may evolve, but the course follows this general progression:
 4. **[Behaviour & Agency](./lessons/lesson4_behaviour/)**
    Autonomous systems, feedback, agents and emergent behaviour.
 
-5. **Parameter Spaces**
+5. **[Parameter Spaces](./lessons/lesson5_parameters/)**
    Functions, variables and families of related outcomes.
 
-6. **Images as Data**
+6. **[Images as Data](./lessons/lesson6_images/)**
    Pixels, sampling, transformation and computational images.
 
 7. **Generative Media**
