@@ -89,6 +89,8 @@ The drawings do not need to be polished.
 
 Later in the semester we will connect our own code with generative media systems.
 
+→ **[AI and Creativity](./ai-and-creativity.md)**: questions about our choices, shared meaning and the value of a creative process.
+
 ### Replicate
 
 Replicate provides API access to many generative models and gives us a relatively consistent way of experimenting with different media.
