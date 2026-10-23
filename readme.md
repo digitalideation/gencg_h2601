@@ -68,7 +68,7 @@ Later in the semester we will move beyond using AI simply as a coding assistant.
 
 We will explore AI as **creative material** by transforming images, generating media and connecting different generative systems into pipelines.
 
-→ **[AI and Creativity](./lessons/extra/ai-and-creativity.md)**: a short annex on learning, agency, collaboration, value and trust, with questions to discuss together.
+→ **[AI and Creativity](./lessons/extra/ai-and-creativity.md)**: an annex on learning, agency, collaboration, value and trust, with activities, discussion and background material.
 
 ## The semester
 
