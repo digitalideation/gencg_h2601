@@ -172,5 +172,7 @@ A few observations are enough: what survived, what disappeared, what surprised y
 ## Next session
 In Session 7 we move into **Generative Media**. Here we specified the transformations ourselves. Next we will explore what changes when a learned model becomes part of the process. An exported image from this session can become one possible input, but there is no need to generate an AI image yet.
 
+→ [AI and Creativity](../extra/ai-and-creativity.md): a short annex with questions about learning, agency and collaboration as AI becomes part of the work.
+
 → [Examples and references](./examples.md)  
 → [Notes on this session](./teacher-notes.md)
