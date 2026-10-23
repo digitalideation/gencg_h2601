@@ -2,111 +2,121 @@
 
 > When a system helps make something, where does our creative contribution happen?
 
-In Generative Coding, we have already worked with instructions, rules, chance, other people, and code. We have seen that we do not need to control every detail of a result to make creative decisions.
+In Generative Coding, we have worked with instructions, rules, chance, other people, and code. We know that making something does not always mean controlling every detail of the result.
 
-Generative AI adds another kind of system to this process. It can suggest ideas, help with code, and produce images, sound, or video. This raises questions about **learning**, **agency** (our ability to influence what happens), and **collaboration** (how we work and create meaning together).
+Generative AI adds another kind of system. It can help us solve problems and produce new material. But it also raises questions about what we **learn**, what we can **choose**, and how we **create with others**.
 
-This page is an invitation to explore these questions, not a test with correct answers. You can think alone first, then discuss in pairs. A sketch or a few words are enough to begin.
+We will begin with a short video and a real controversy, then connect both to our own work.
 
-## 1. What makes something creative?
+**In class:** approximately 35 minutes of discussion and reflection **plus the video**. No advance reading or new software is needed. Think before you speak; use sketches, keywords, or short sentences if that helps. The goal is to explore different views, not agree on one answer.
 
-Imagine two images that you find equally interesting.
+## 1. The "failed animal": can our limits make us creative?
 
-One was produced with rules written in p5.js. The other was generated with an AI model. In both cases, a person chose what to try, looked at several results, and selected one to share.
+**Watch together:** a short NotebookLM video based on philosopher Charles Pépin's idea of humans as "failed animals". See the [Human Learning source guide](https://digitalideation.github.io/hslu-ki-h2601/content/human-learning.html) or its [short transcript](https://github.com/digitalideation/hslu-ki-h2601/blob/main/slides/static/vids/philo_en.md#learning-through-culture-and-failure).
 
-Does knowing how the images were made change what you think of them?
+Pépin compares a young animal that can walk soon after birth with a human child who learns over time. He suggests that our dependence on others and our need to learn give us possibilities for culture, creativity, and freedom.
 
-We might value different things in a creative work:
+This is a **philosophical argument**, not a claim that every mistake automatically teaches us something. Trying again, receiving feedback, and changing our approach may be what makes learning possible. You can also disagree with Pépin.
 
-- **The result:** what we see, hear, or experience.
-- **The intention:** what the maker wanted to explore or communicate.
-- **The process:** the experiments, effort, mistakes, and choices behind it.
-- **The relationships:** how people, tools, and audiences helped shape its meaning.
+**Think alone, then discuss in pairs (5 min):**
 
-We do not all have to value these things in the same way.
+> If AI could remove every difficulty from your creative process, would you want it to?
 
-**Discuss in pairs:** Think of a work you like. Would learning something new about how it was made change your opinion? Why, or why not?
+What would you gain? What might you miss? Consider both useful challenges and barriers that stop someone from participating.
 
-## 2. What do we learn through making?
+A mistake in a p5.js sketch might help us discover a new possibility. An AI explanation might help us get past a problem that was blocking our idea. **How do we decide when to struggle and when to ask for help?**
 
-Making something often changes our idea. A rule behaves differently than we expected. A sketch produces an unexpected pattern. Someone interprets our instructions in a new way. We try again.
+## 2. A literary controversy: does the process change the work?
 
-**Learning is not just getting the right result.** It can come from testing, noticing, asking questions, and changing our approach.
+Imagine you read a novel and love it. Later, you hear that it might have been written with generative AI.
 
-AI can be useful here. It might explain a difficult piece of code, offer a variation, or help someone express an idea across a language barrier. But it might also give us a finished answer before we have explored the problem ourselves.
+**First, decide for yourself:** Would that change your opinion of the book? Why? You may answer "yes", "no", or "it depends".
 
-The important question is not whether help is always good or bad.
+A real case brought these questions into public discussion. In September 2026, the novel *C'était ça ou mourir* by **Thélyson Orélien** was receiving critical attention in France. An anonymous account accused the author of using AI to write it. **Orélien denied the allegation**, and his publisher rejected it.
 
-**Which difficulties help us learn, and which difficulties only stop us from taking part?**
+We are **not** trying to establish whether the accusation was true. An accusation or the result of an AI-text detector is not proof of how a work was made. The case is about the effects of doubt, the importance of evidence, and what different people value.
 
-**Think, then share:** Remember a moment when something went wrong in your work. What did you discover? Would you have wanted AI to solve it immediately?
+**Discuss in pairs (7 min):**
 
-## 3. Agency: who makes the decisions?
+- Would the accusation change your experience of the book, even before you knew the facts?
+- What information about the creative process would you want, and why?
+- Could a false accusation damage a writer? How might it affect trust in other writers?
 
-**Agency** means being able to influence what happens. It includes more than choosing between options. It also includes the possibility to question, change, or reject those options.
+We may value **the result**, **the intention**, **the process**, and **the relationships** behind a work differently. Enjoying a result and trusting an account of its creation are not quite the same thing.
 
-In generative work, decisions can happen at many points:
+Read more, if interested: [Creativity and Society](https://digitalideation.github.io/hslu-ki-h2601/content/creativity-and-society.html) (case and trust discussion); [Le Parisien, 22 September 2026](https://www.leparisien.fr/culture-loisirs/livres/thelyson-orelien-a-t-il-utilise-lia-pour-son-roman-cetait-ca-ou-mourir-cinq-minutes-pour-comprendre-la-polemique-22-09-2026-6BH3BOKMZ5FJ7N4CDERPK3ONKU.php) (reporting, in French).
 
-- Which question or idea do we explore?
-- Who sets the rules, inputs, and limits?
-- Which results do we keep or reject?
-- Can we change the system when we dislike its suggestions?
-- Who decides when the work is finished?
+## 3. Agency: who can make or change decisions?
 
-With p5.js, we often write the rules ourselves. With a generative AI model, some possibilities are shaped by a system we did not build, including its training and design. We can still make important choices, but we may not control every part of the process.
+**Agency** means being able to influence what happens.
 
-Agency also has a **social and democratic** side. If creative tools help people speak, make images, and share stories, we can ask: Who has access? Whose ideas and languages are represented? Who gets heard? Who can challenge the rules?
+It is more than choosing from a list. It can mean proposing a different option, questioning a rule, rejecting a result, or changing the direction of a project.
 
-**Discuss:** Think about a generative experiment you have made. Name one decision you controlled, one influence that came from elsewhere, and one thing you would like to change.
+In our p5.js work, we often write and adjust the rules. With generative AI, we can choose prompts, inputs, outputs, and edits, but other possibilities are shaped by a system we did not build.
 
-An AI tool can offer many choices while still setting the limits of what is offered. **Can we change the choices, or only choose from them?**
+This also concerns **democracy and participation**: Who can use these systems? Whose language or culture is represented? Who sets the rules? Who gets heard, and who can challenge a decision?
+
+**Discuss (6 min):**
+
+> Does having more ways to generate things also give us more influence over what gets made and seen?
+
+Think of one choice you control in your own work and one choice shaped by a tool, institution, or other person. Can you change the second one?
 
 ## 4. Collaboration: how do we create meaning together?
 
-Think back to our instruction exercises. One person described a drawing. Another person interpreted the instructions. The result could differ from the original idea.
+Think back to the first GENCG session. One person wrote instructions for a drawing, and another interpreted them. Their different understanding could change the outcome.
 
-Something important happened between the two people: they had to communicate, interpret, and respond.
+When we make something, we also use **symbols**: images, words, sounds, and gestures that carry meaning. Their meaning is not always fixed. People may interpret the same symbol differently because of their experiences and cultures.
 
-This is also part of **symbolic expression**. A symbol is something—a word, image, sound, or gesture—that can stand for an idea. Its meaning depends partly on how people use and understand it. The same image might have different meanings in different places or cultures.
+Creating is therefore also a way to communicate, listen, disagree, and build shared meaning. **Collaboration** can change what we want to make, not just help us finish it faster.
 
-Creative work is therefore not only about producing things. It can also be a way to share experiences, listen to others, and change how we see the world.
+AI can offer material or suggestions. We sometimes call it a collaborator. That makes for an interesting question: **What can an AI system contribute, and what is different when we work with another person?**
 
-An AI model can contribute suggestions and material to this process. We might even call it a collaborator. But that word is worth examining: **What kind of contribution does the model make, and how is it different from another person's contribution?**
+**Discuss in pairs (6 min):**
 
-A person may share a memory, disagree with us, or explain why a symbol matters in their culture. An AI system can generate a response from patterns it has learned. Both may affect the result, but they do not necessarily contribute in the same way.
+> When did another person's interpretation change your idea? Could AI change it in a similar way? What might be different?
 
-**Discuss in pairs:** When did another person's interpretation change your idea? Could an AI suggestion change it in a similar way? What might be different?
+You do not have to agree on where to draw the line between tool and collaborator.
 
-## 5. What do we value, and whom do we trust?
+## 5. Different people, different values
 
-Imagine you enjoy a poster. Later, you learn that an AI model produced much of the image. You may still like the poster, but you might have new questions.
+Return to the novel controversy. There is more than one perspective:
 
-What did the maker decide? Where did the material come from? Were other people's contributions acknowledged?
+| Perspective | What might matter? |
+| --- | --- |
+| **Writer** | Creative choices, recognition, reputation, fair judgment |
+| **Reader** | The experience of the story, trust, knowing how it was made |
+| **Publisher** | Responsibility for the work, public trust |
+| **Other creators** | Credit, opportunities, and fair treatment |
 
-Different people may care about different things:
+**In groups of three or four (8 min):** Choose **two** perspectives.
 
-- **The maker** may want recognition for their choices.
-- **The audience** may care about the experience and want an accurate account of the process.
-- **Other creators** may care about credit, opportunities, and fair treatment.
+1. What does each person want or value?
+2. Where might they disagree?
+3. What could they learn by listening to each other?
 
-Trust matters because the finished result does not always show us how it was made. Being open about a process can help others understand the work, without deciding in advance whether AI-assisted work is better or worse.
+Share **one disagreement and one question you still have**, not a verdict on whether AI is good or bad.
 
-**Small-group discussion:** Choose two of the people above. What does each value? Where might they disagree? Find **one real disagreement**, not a final verdict about AI.
+Notice how the case brings both themes together: **agency** is about who can influence decisions; **collaboration** is about how we respond to each other and build meaning. Questions of value, credit, and trust run through both.
 
-## Return to your own work
+## 6. Back to your creative practice
 
-Look again at the question from the beginning: **When a system helps make something, where does our creative contribution happen?**
+**Reflect (3 min):** Think about an experiment you made in GENCG.
 
-For your [process journal](./journal.md), keep three short observations:
+> What would you happily delegate to AI? What part would you want to keep for yourself, and why?
 
-1. **Learning:** Something I discovered by making was ...
-2. **Agency:** A choice I made—or wanted to change—was ...
-3. **Collaboration:** A person or system changed my idea by ...
+If useful, add one or two short notes to your [process journal](./journal.md):
 
-You can use a sketch, keywords, or short sentences. You do not need a long written answer.
+- **Learning:** Something I discovered by trying was ...
+- **Agency:** A choice I wanted to make or change was ...
+- **Collaboration:** Another person or system changed my idea by ...
+
+Return to our opening question: **When a system helps make something, where does our creative contribution happen?** There may be more than one answer.
 
 ## Explore further (optional)
 
-These ideas are adapted for Generative Coding from the HSLU AI course's [Session 01: Human Learning, Perception, and Creativity](https://digitalideation.github.io/hslu-ki-h2601/content/session01.html) and [Creativity and Society: Who Creates, Who Benefits?](https://digitalideation.github.io/hslu-ki-h2601/content/creativity-and-society.html).
+The discussion draws on [Session 01: Human Learning, Perception, and Creativity](https://digitalideation.github.io/hslu-ki-h2601/content/session01.html), the [Human Learning guide](https://digitalideation.github.io/hslu-ki-h2601/content/human-learning.html), and [Creativity and Society: Who Creates, Who Benefits?](https://digitalideation.github.io/hslu-ki-h2601/content/creativity-and-society.html).
 
-For examples within this course, revisit [Drawing Machines](../lesson4_behaviour/drawing-machines.md): who creates the drawing when a person, a system, chance, and other participants all contribute?
+The longer Creativity and Society guide includes an analogy about **trust when information is missing**, plus additional questions about imperfection, culture, participation, and symbolic expression.
+
+Within GENCG, revisit [Drawing Machines](../lesson4_behaviour/drawing-machines.md). How do a person, a machine, chance, and participants each contribute to a work?
