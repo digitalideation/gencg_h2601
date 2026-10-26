@@ -2,7 +2,7 @@
 
 > When AI helps make something, where does our creative contribution happen?
 
-We have already worked with rules, chance, code, and other people. Now we will look at how AI changes creative work—not only what we can produce, but also what we learn, who makes decisions, and what we value.
+We have already worked with rules, chance, code, and other people. Now we will look at how AI changes creative work: not only what we can produce, but also what we learn, who makes decisions, and what we value.
 
 **In class:** one short video, then one discussion built around a literary controversy. We will work in **four pairs (eight students)** and compare our decisions as a group. About **35 minutes plus the video**. No advance reading or AI account is needed. You can think or write before speaking; a few words are enough.
 
@@ -14,7 +14,7 @@ This is a philosophical argument, not proof that every mistake teaches us someth
 
 **As you watch the short NotebookLM video, keep one question in mind:**
 
-> If AI could remove every difficulty from making something, what would we gain—and what might we miss?
+> If AI could remove every difficulty from making something, what would we gain, and what might we miss?
 
 The video will be shown in class. Background: [Human Learning guide](https://digitalideation.github.io/hslu-ki-h2601/content/human-learning.html) and [short transcript](https://github.com/digitalideation/hslu-ki-h2601/blob/main/slides/static/vids/philo_en.md#learning-through-culture-and-failure).
 
@@ -26,7 +26,7 @@ In September 2026, **Thélyson Orélien's** novel *C'était ça ou mourir* becam
 
 We will explore the questions raised by this controversy, **not decide whether the accusation is true**.
 
-### A. Your first reaction — 5 min
+### A. Your first reaction - 5 min
 
 Think alone for a moment. Choose an answer: **Yes / No / It depends.**
 
@@ -34,50 +34,57 @@ Think alone for a moment. Choose an answer: **Yes / No / It depends.**
 
 Tell your partner your answer and one reason. You can disagree.
 
-### B. Two perspectives — 8 min
+### B. Two perspectives - 8 min
 
-Each pair considers **two perspectives** assigned by the instructor:
+Different people may see the same situation differently. Before making a decision, try to understand **what matters to each of them**.
 
-| Perspective | What could matter to them? |
+Your instructor will give your pair **two perspectives** from this table:
+
+| Perspective | Think about |
 | --- | --- |
-| **Writer** | Creative freedom, recognition, and fair judgment |
-| **Reader** | The story, trust, and information about its making |
-| **Publisher** | Responsibility, the author, and public trust |
+| **Writer** | Creative freedom, recognition, and being judged fairly |
+| **Reader** | Enjoying the work, trust, and knowing how it was made |
+| **Publisher** | Supporting the author, responsibility, and public trust |
 | **Other creators** | Credit, opportunities, and fair treatment |
 
-For each perspective, discuss:
+1. **Think alone:** Each of you takes one perspective. What might this person want or worry about? You do not have to agree with them.
+2. **Explain to your partner:** Share what matters to your person. Listen to the other perspective.
+3. **Find one tension:** Where might their needs or expectations conflict?
 
-- What do they value?
-- What would they want to know or influence?
-- **Where could the two perspectives disagree?**
+**Keep:** One short note about a disagreement. You might begin, "One person wants ..., while the other ...". You don't need to solve it yet.
 
-### C. Agree on a response — 10 min
+### C. Agree on a response - 10 min
 
-Imagine your pair is advising a **fictional literary prize committee**. You are making rules for how the committee should work, **not judging the real author**.
+You have now heard two different points of view. **Put both on the table.** You are no longer speaking only for one person.
 
-Agree on two decisions:
+Imagine your pair is advising a **fictional literary prize committee**. The committee needs a fair way to handle AI use in submitted books.
 
-1. **Disclosure:** What uses of AI should a writer tell the committee about? For example: correcting grammar, developing ideas, rewriting text, or generating full passages. Do these uses need the same treatment?
-2. **Fairness:** What should the committee do if someone makes an accusation **without reliable evidence**? What would be a fair response to the writer and the public?
+Discuss **two decisions** together:
 
-Write **two short sentences** beginning:
+1. **Disclosure:** What AI use should a writer tell the committee about? Think about differences between spelling help, generating ideas, rewriting text, and producing whole passages. Where would *you* draw a line?
+2. **Fairness:** Someone accuses a writer of using AI, but offers **no reliable evidence**. What should the committee do? What would protect a fair process?
 
-- "Writers should tell the committee when ..."
-- "If an accusation has no reliable evidence, the committee should ..."
+You are **not judging the real author** or trying to prove the allegation.
 
-Be ready to explain **one reason** for your decisions. If you could not agree, keep that disagreement.
+**Agree on two short recommendations**, one about disclosure and one about accusations. Write down one reason for each if you can. You may disagree: keep a note of what you could not settle.
 
-### D. Compare and reconsider — 12 min
+Keep your two recommendations for the next step. **You do not need to open the board yet.**
 
-Each of the four pairs shares its two sentences. Listen for differences:
+### D. Compare and reconsider - 12 min
 
-- Which choices give creators freedom? Which protect others?
-- Did the different perspectives change what you thought was fair?
-- Can a group make shared rules even when its members value different things?
+Now we will put the four pairs' proposals together.
 
-Now return to your first response: **Yes / No / It depends.** Have you changed your position, or found a better reason for keeping it?
+**[Open the shared Miro board](REPLACE_WITH_MIRO_BOARD_URL)**
 
-There is no class verdict about whether AI-assisted work is good or bad.
+<!-- Instructor: replace REPLACE_WITH_MIRO_BOARD_URL with the class Miro link before the session. -->
+
+1. **Add your pair's proposals:** Write your two recommendations on the board. Add your pair number, and include an unresolved disagreement if you have one.
+2. **Read the others:** Look for one difference between your proposals and another pair's.
+3. **Discuss as a class:** We will explore one or two of those differences. What is each pair trying to protect? What would change if we chose a different rule?
+
+Finally, return to your first answer: **Yes / No / It depends.**
+
+**Did your opinion change, or did you discover a better reason for keeping it?** You do not have to change your mind. There is no class verdict about whether AI-assisted work is good or bad.
 
 ## 3. Agency: who can shape the rules?
 
@@ -93,7 +100,7 @@ Generative systems raise similar questions. Some decisions belong to us; others 
 
 In our first GENCG session, one person wrote drawing instructions and another interpreted them. Even with the same words, the result could be different.
 
-We create and communicate through **symbols**—words, images, sounds, or gestures that carry meaning. Their meaning also depends on the people and cultures interpreting them.
+We create and communicate through **symbols**: words, images, sounds, or gestures that carry meaning. Their meaning also depends on the people and cultures interpreting them.
 
 Collaboration is therefore not only about finishing something faster. Listening, disagreeing, and revising our ideas can change **what we are trying to express**. This also happens when people negotiate what "author", "original", or "creative contribution" should mean.
 
@@ -112,3 +119,5 @@ There may be no single answer. The point is to notice what we value, which choic
 This annex draws on the HSLU AI course's [Session 01: Human Learning, Perception, and Creativity](https://digitalideation.github.io/hslu-ki-h2601/content/session01.html) and [Creativity and Society: Who Creates, Who Benefits?](https://digitalideation.github.io/hslu-ki-h2601/content/creativity-and-society.html). The longer guide includes the literary case, perspectives on trust, and deeper questions about culture, symbolic expression, and participation.
 
 Within this course: [Drawing Machines](../lesson4_behaviour/drawing-machines.md) · [The Process Journal](./journal.md)
+
+[Teacher notes](./ai-and-creativity-teacher-notes.md)
