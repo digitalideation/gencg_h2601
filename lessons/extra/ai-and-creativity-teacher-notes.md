@@ -4,7 +4,7 @@ These notes accompany [AI and Creativity](./ai-and-creativity.md). The student p
 
 ## The idea
 
-We have eight students, so four pairs. One short video about the "failed animal" opens the subject. Then we stay with the literary controversy for the rest of the discussion. **Agency, collaboration, value, and trust are connections we make during the conversation, not separate activities.**
+Students work in pairs. One short video about the "failed animal" opens the subject. Then we stay with the literary controversy for the rest of the discussion. **Agency, collaboration, value, and trust are connections we make during the conversation, not separate activities.**
 
 The classroom activity takes about **35 minutes plus the video**. Keep the deeper sources in reserve rather than turning the class into a guided reading.
 
@@ -30,22 +30,15 @@ Give everyone a moment to choose yes, no, or it depends, then discuss in pairs. 
 
 ### B. Two perspectives: 8 min
 
-Each pair explores two perspectives:
-
-| Pair | Student 1 | Student 2 |
-| --- | --- | --- |
-| 1 | Writer | Reader |
-| 2 | Writer | Other creator |
-| 3 | Publisher | Reader |
-| 4 | Publisher | Other creator |
+Each pair chooses **any two perspectives** from the student page. They can explore both together. There is no need to assign roles or make sure every perspective is represented.
 
 I would explain:
 
-> Each of you takes one perspective. What could matter to this person? Tell your partner, listen to their perspective, and find one point of tension. You do not have to resolve it.
+> Choose two perspectives together. What could matter to each of them? Where might their interests pull in different directions? Find one point of tension. You do not have to resolve it.
 
-Allow around two minutes to think, four minutes to compare, and the remainder to write a short note.
+Allow around two minutes to choose and think, four minutes to explore both perspectives, and the remainder to write a short note.
 
-Do not ask students to act out the roles or perform a debate. They are looking at conflicting interests. If they need help, ask, "What could this person gain or lose?" or "Would the other person want the same thing?"
+Do not ask students to act out the roles or perform a debate. It is fine if several pairs choose the same perspectives; you can later ask whose perspectives were not explored. They are looking at conflicting interests. If they need help, ask, "What could this person gain or lose?" or "Would the other person want the same thing?"
 
 **Transition:** Now that each pair has found a tension, can they agree on a fair response?
 
@@ -63,11 +56,11 @@ Keep the examples of different AI uses visible, from spelling assistance to gene
 
 If students get stuck, ask what their proposed rule would mean for another situation. If they begin judging the real author, return to the idea of making a policy when facts are uncertain.
 
-**Transition:** We have four pairs and possibly four different policies. Let's compare what each tries to protect.
+**Transition:** We now have several possible policies. Let's compare what each tries to protect.
 
 ### D. Compare and reconsider: 12 min
 
-This is **the only stage using the board**. Before class, create a simple Miro layout with four spaces, Pair 1 to Pair 4. Each space needs room for a disclosure recommendation, a recommendation about allegations, and an optional disagreement.
+This is **the only stage using the board**. Before class, prepare one simple, open Miro canvas, without numbered group areas or sample answers. Each pair chooses a distinct color and uses it for both recommendations, plus an optional disagreement. The color makes their contributions easy to see together.
 
 Replace the Miro placeholder in the student page before class.
 
@@ -76,7 +69,7 @@ Replace the Miro placeholder in the student page before class.
 - **6 min:** Discuss one or two differences.
 - **2 min:** Return to the initial yes/no/it-depends positions.
 
-Avoid reading all eight statements aloud. The board makes them visible. Choose a difference that opens an interesting question.
+Avoid reading every statement aloud. The board makes them visible. Choose a difference that opens an interesting question.
 
 Questions I would keep ready: "What is this rule protecting?" "Who gets to decide?" "What counts as a meaningful contribution?" "Could two people mean different things by the word author?"
 
@@ -92,7 +85,7 @@ I would try to **ask before explaining**. Make teaching inputs short and connect
 
 ## What to prepare
 
-The short NotebookLM video, a concise description of the controversy, visible instructions for B and C, and a simple Miro board for D. If Miro is unavailable, use four areas on a whiteboard.
+The short NotebookLM video, a concise description of the controversy, visible instructions for B and C, and a simple Miro board for D. If Miro is unavailable, use different pen colors or separate notes on a whiteboard.
 
 The [Process Journal](./journal.md) already asks students to make decisions, experiments, and AI contributions visible. We do not need to add a journal exercise or make that connection explicit in class.
 
