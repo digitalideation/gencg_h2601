@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI and Creativity | Generative Computer Graphics</title>
+  <meta name="description" content="A guided discussion about creativity, authorship, agency and collaboration.">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CMaitree:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="all" href="static/css/webslides.css">
+  <link rel="stylesheet" type="text/css" media="all" href="static/css/svg-icons.css">
+  <style>
+    /* Small additions to the WebSlides style used in intro.html. */
+    .gencg-wrap { max-width: 1180px; margin: 0 auto; }
+    .gencg-label { font: 700 1.5rem/1.3 Roboto, sans-serif; letter-spacing: .11em; text-transform: uppercase; opacity: .7; }
+    .gencg-title { font: 700 clamp(3.4rem, 5.3vw, 6.4rem)/1.06 Roboto, sans-serif; letter-spacing: -.04em; margin: 1.6rem 0 2.5rem; }
+    .gencg-question { font: 500 clamp(2.4rem, 3.9vw, 4.8rem)/1.2 Roboto, sans-serif; letter-spacing: -.025em; margin: 2rem 0; }
+    .gencg-subtext { font: 400 clamp(1.7rem, 2vw, 2.5rem)/1.5 Roboto, sans-serif; max-width: 960px; }
+    .gencg-source { font: 400 1.6rem/1.45 Roboto, sans-serif; opacity: .72; }
+    .gencg-link { display: inline-block; padding: 1.2rem 2rem; border: 2px solid currentColor; border-radius: 5px; margin-top: 1.4rem; font: 500 1.8rem/1.3 Roboto, sans-serif; text-decoration: none; }
+    .gencg-link:hover, .gencg-link:focus-visible { background: #e8e8e8; color: #151515; border-color: #e8e8e8; }
+    .gencg-dark .gencg-link { color: #fff; }
+    .gencg-dark .gencg-link:hover, .gencg-dark .gencg-link:focus-visible { color: #151515; }
+    .gencg-left { text-align: left; }
+    .gencg-twocol { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; align-items: start; margin: 3rem 0 0; }
+    .gencg-card { border-top: 3px solid #222; padding-top: 1.1rem; }
+    .gencg-card h3 { font: 700 clamp(2.2rem, 2.5vw, 3rem)/1.2 Roboto, sans-serif; margin: .7rem 0; }
+    .gencg-card p { font: 400 clamp(1.65rem, 1.8vw, 2.2rem)/1.4 Roboto, sans-serif; }
+    .gencg-steps { display: grid; gap: 1.6rem; margin: 3rem 0 0; }
+    .gencg-step { display: grid; grid-template-columns: 3.4rem 1fr; column-gap: 1.3rem; align-items: baseline; font: 400 clamp(1.8rem, 2.2vw, 2.65rem)/1.35 Roboto, sans-serif; }
+    .gencg-step strong { font-weight: 700; }
+    .gencg-rule { border: 0; border-top: 1px solid #aaa; margin: 2.8rem 0; }
+    .gencg-footer { margin-top: 3rem; font: 400 1.7rem/1.4 Roboto, sans-serif; opacity: .7; }
+    .gencg-emph { font-weight: 700; }
+    .gencg-dark { color: #fff; }
+    .gencg-dark .gencg-card { border-color: #bbb; }
+    @media (max-width: 820px) {
+      .gencg-twocol { grid-template-columns: 1fr; gap: 1.5rem; }
+      .gencg-steps { gap: 1rem; }
+      .gencg-footer { margin-top: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <main role="main">
+    <article id="webslides">
+      <!-- 1: A single provocation before we discuss the case. -->
+      <section class="bg-black aligncenter gencg-dark" id="watch">
+        <div class="wrap gencg-wrap">
+          <p class="gencg-label">Generative Computer Graphics | AI and Creativity</p>
+          <h1 class="gencg-title">The "failed animal"</h1>
+          <p class="gencg-subtext" style="margin:0 auto;">If AI could remove every difficulty from making something, what would we gain, and what might we miss?</p>
+          <p><a class="gencg-link" href="https://notebooklm.link.google/ubxoUWxza9gR" target="_blank" rel="noopener noreferrer">Watch the 7-minute video</a></p>
+          <p class="gencg-source">Based on Charles Pépin's argument about learning, culture and freedom</p>
+        </div>
+      </section>
+
+      <!-- 2: Initial private reaction, then partner discussion. -->
+      <section id="controversy">
+        <div class="wrap gencg-wrap gencg-left">
+          <p class="gencg-label">A | First reaction | 5 min</p>
+          <h2 class="gencg-question">Would knowing that AI helped write a novel change how you value it?</h2>
+          <p class="gencg-subtext"><strong>Yes / No / It depends.</strong> Decide alone, then explain one reason to your partner.</p>
+          <hr class="gencg-rule">
+          <p class="gencg-source"><strong>A disputed case:</strong> In 2026, allegations about AI use circulated concerning Thélyson Orélien's <em>C'était ça ou mourir</em>. The author denied the allegations. We are not trying to decide whether they are true.</p>
+        </div>
+      </section>
+
+      <!-- 3: Different interests, before anyone is asked to design a rule. -->
+      <section id="perspectives">
+        <div class="wrap gencg-wrap gencg-left">
+          <p class="gencg-label">B | Two perspectives | 8 min</p>
+          <h2 class="gencg-question" style="margin-bottom:1rem;">Whose perspective matters?</h2>
+          <div class="gencg-twocol">
+            <div class="gencg-card"><h3>Writer</h3><p>Freedom, recognition, fair judgment</p></div>
+            <div class="gencg-card"><h3>Reader</h3><p>The story, trust, how it was made</p></div>
+            <div class="gencg-card"><h3>Publisher</h3><p>Responsibility, the author, public trust</p></div>
+            <div class="gencg-card"><h3>Other creators</h3><p>Credit, opportunities, fair treatment</p></div>
+          </div>
+          <p class="gencg-footer"><strong>In pairs:</strong> Choose any two. Explore what matters to each. Find <strong>one tension</strong> between them. Do not resolve it yet.</p>
+        </div>
+      </section>
+
+      <!-- 4: The same pairs use both perspectives to propose a policy. -->
+      <section id="committee">
+        <div class="wrap gencg-wrap gencg-left">
+          <p class="gencg-label">C | Agree on a response | 10 min</p>
+          <h2 class="gencg-question">Advise a fictional literary prize committee</h2>
+          <div class="gencg-twocol">
+            <div class="gencg-card">
+              <h3>1. Disclosure</h3>
+              <p>Which uses of AI should a writer tell the committee about?</p>
+            </div>
+            <div class="gencg-card">
+              <h3>2. Fairness</h3>
+              <p>What should happen if someone makes an accusation without reliable evidence?</p>
+            </div>
+          </div>
+          <p class="gencg-footer">Agree on <strong>two short recommendations</strong>. Keep your reasons and any disagreement. This is about fair rules, not deciding the real author's case.</p>
+        </div>
+      </section>
+
+      <!-- 5: This is the only slide that needs the shared Miro board. -->
+      <section class="bg-black gencg-dark" id="miro">
+        <div class="wrap gencg-wrap gencg-left">
+          <p class="gencg-label">D | Compare and reconsider | 12 min</p>
+          <h2 class="gencg-question">What did we decide differently?</h2>
+          <div class="gencg-steps">
+            <div class="gencg-step"><strong>1.</strong><span>Pick <strong>one color per pair</strong> and add your two recommendations to Miro.</span></div>
+            <div class="gencg-step"><strong>2.</strong><span>Read the others. Notice one difference worth discussing.</span></div>
+            <div class="gencg-step"><strong>3.</strong><span>Return to your first answer. Has your position changed?</span></div>
+          </div>
+          <!-- Replace this URL when the class Miro board is ready. -->
+          <p><a class="gencg-link" href="REPLACE_WITH_MIRO_BOARD_URL" target="_blank" rel="noopener noreferrer">Open shared Miro board</a></p>
+          <p class="gencg-source">You do not have to agree or change your mind.</p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <!-- Reuse the local WebSlides assets from slides/intro.html. -->
+  <script src="static/js/webslides.js"></script>
+  <script>window.ws = new WebSlides();</script>
+  <script defer src="static/js/svg-icons.js"></script>
+</body>
+</html>
