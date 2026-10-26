@@ -4,7 +4,7 @@
 
 We have already worked with rules, chance, code, and other people. Now we will look at how AI changes creative work: not only what we can produce, but also what we learn, who makes decisions, and what we value.
 
-**In class:** one short video, then one discussion built around a literary controversy. We will work in **four pairs (eight students)** and compare our decisions as a group. About **35 minutes plus the video**. No advance reading or AI account is needed. You can think or write before speaking; a few words are enough.
+**In class:** one short video, then one discussion built around a literary controversy. We will work in pairs and compare our decisions as a group. About **35 minutes plus the video**. No advance reading or AI account is needed. You can think or write before speaking; a few words are enough.
 
 ## 1. Watch: the "failed animal"
 
@@ -38,7 +38,7 @@ Tell your partner your answer and one reason. You can disagree.
 
 Different people may see the same situation differently. Before making a decision, try to understand **what matters to each of them**.
 
-Your instructor will give your pair **two perspectives** from this table:
+With your partner, **choose two perspectives** from this table:
 
 | Perspective | Think about |
 | --- | --- |
@@ -47,8 +47,8 @@ Your instructor will give your pair **two perspectives** from this table:
 | **Publisher** | Supporting the author, responsibility, and public trust |
 | **Other creators** | Credit, opportunities, and fair treatment |
 
-1. **Think alone:** Each of you takes one perspective. What might this person want or worry about? You do not have to agree with them.
-2. **Explain to your partner:** Share what matters to your person. Listen to the other perspective.
+1. **Choose together:** Pick two perspectives that interest you. You do not need to cover all four.
+2. **Explore both:** What might each person want or worry about? Discuss the two viewpoints together, even if you do not agree with them.
 3. **Find one tension:** Where might their needs or expectations conflict?
 
 **Keep:** One short note about a disagreement. You might begin, "One person wants ..., while the other ...". You don't need to solve it yet.
@@ -72,13 +72,13 @@ Keep your two recommendations for the next step. **You do not need to open the b
 
 ### D. Compare and reconsider - 12 min
 
-Now we will put the four pairs' proposals together.
+Now we will bring everyone's proposals together.
 
 **[Open the shared Miro board](REPLACE_WITH_MIRO_BOARD_URL)**
 
 <!-- Instructor: replace REPLACE_WITH_MIRO_BOARD_URL with the class Miro link before the session. -->
 
-1. **Add your pair's proposals:** Write your two recommendations on the board. Add your pair number, and include an unresolved disagreement if you have one.
+1. **Add your pair's proposals:** Choose one color for your pair (different from other pairs) and use it for both recommendations on the board. Include an unresolved disagreement if you have one.
 2. **Read the others:** Look for one difference between your proposals and another pair's.
 3. **Discuss as a class:** We will explore one or two of those differences. What is each pair trying to protect? What would change if we chose a different rule?
 
