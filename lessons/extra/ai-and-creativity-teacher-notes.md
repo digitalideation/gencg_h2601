@@ -4,7 +4,7 @@ These notes accompany [AI and Creativity](./ai-and-creativity.md). The student p
 
 ## The idea
 
-Students work in pairs. One short video about the "failed animal" opens the subject. Then we stay with the literary controversy for the rest of the discussion. **Agency, collaboration, value, and trust are connections we make during the conversation, not separate activities.**
+Students work in pairs. A [7-minute NotebookLM video](https://notebooklm.link.google/ubxoUWxza9gR) about the "failed animal" opens the subject. Then we stay with the literary controversy for the rest of the discussion. **Agency, collaboration, value, and trust are connections we make during the conversation, not separate activities.**
 
 The classroom activity takes about **35 minutes plus the video**. Keep the deeper sources in reserve rather than turning the class into a guided reading.
 
@@ -85,7 +85,7 @@ I would try to **ask before explaining**. Make teaching inputs short and connect
 
 ## What to prepare
 
-The short NotebookLM video, a concise description of the controversy, visible instructions for B and C, and a simple Miro board for D. If Miro is unavailable, use different pen colors or separate notes on a whiteboard.
+The [7-minute NotebookLM video](https://notebooklm.link.google/ubxoUWxza9gR), a concise description of the controversy, visible instructions for B and C, and a simple Miro board for D. If Miro is unavailable, use different pen colors or separate notes on a whiteboard.
 
 The [Process Journal](./journal.md) already asks students to make decisions, experiments, and AI contributions visible. We do not need to add a journal exercise or make that connection explicit in class.
 
