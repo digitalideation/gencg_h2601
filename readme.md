@@ -92,7 +92,7 @@ The exact exercises may evolve, but the course follows this general progression:
 6. **[Images as Data](./lessons/lesson6_images/)**
    Pixels, sampling, transformation and computational images.
 
-7. **Generative Media**
+7. **[Generative Media](./lessons/lesson7_generative_media/)**
    Image generation and an introduction to generative sound and video.
 
 8. **Hybrid Pipelines**
