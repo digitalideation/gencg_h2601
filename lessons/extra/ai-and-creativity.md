@@ -4,7 +4,7 @@
 
 We have already worked with rules, chance, code, and other people. Now we will look at how AI changes creative work: not only what we can produce, but also what we learn, who makes decisions, and what we value.
 
-**In class:** one short video, then one discussion built around a literary controversy. We will work in pairs and compare our decisions as a group. About **35 minutes plus the video**. No advance reading or AI account is needed. You can think or write before speaking; a few words are enough.
+**In class:** a 7-minute video, then one discussion built around a literary controversy. We will work in pairs and compare our decisions as a group. About **42 minutes total**, including the 7-minute video. No advance reading or AI account is needed. You can think or write before speaking; a few words are enough.
 
 ## 1. Watch: the "failed animal"
 
@@ -16,7 +16,7 @@ This is a philosophical argument, not proof that every mistake teaches us someth
 
 > If AI could remove every difficulty from making something, what would we gain, and what might we miss?
 
-The video will be shown in class. Background: [Human Learning guide](https://digitalideation.github.io/hslu-ki-h2601/content/human-learning.html) and [short transcript](https://github.com/digitalideation/hslu-ki-h2601/blob/main/slides/static/vids/philo_en.md#learning-through-culture-and-failure).
+[Watch the 7-minute NotebookLM video](https://notebooklm.link.google/ubxoUWxza9gR). Background: [Human Learning guide](https://digitalideation.github.io/hslu-ki-h2601/content/human-learning.html) and [short transcript](https://github.com/digitalideation/hslu-ki-h2601/blob/main/slides/static/vids/philo_en.md#learning-through-culture-and-failure).
 
 ## 2. A literary controversy: does knowing the process change the work?
 
