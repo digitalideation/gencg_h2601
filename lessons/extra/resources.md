@@ -87,6 +87,8 @@ The drawings do not need to be polished.
 
 ## Generative AI & Media
 
+For questions about creative decisions, shared meaning, and AI's role in the process, read [AI and Creativity](./ai-and-creativity.md).
+
 Later in the semester we will connect our own code with generative media systems.
 
 ### Replicate
