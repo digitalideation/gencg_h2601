@@ -62,7 +62,7 @@ If students get stuck, ask what their proposed rule would mean for another situa
 
 This is **the only stage using the board**. Before class, prepare one simple, open Miro canvas, without numbered group areas or sample answers. Each pair chooses a distinct color and uses it for both recommendations, plus an optional disagreement. The color makes their contributions easy to see together.
 
-Replace the Miro placeholder in the student page before class.
+The shared Miro board is linked from the student page and the slides. Share its access password directly with students when needed.
 
 - **2 min:** Pairs add their decisions.
 - **2 min:** Everyone reads the other decisions.
