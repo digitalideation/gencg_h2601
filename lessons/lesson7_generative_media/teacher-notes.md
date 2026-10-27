@@ -221,13 +221,13 @@ Ask what was decided in the source, prompt, series design, model choice, rejecti
 
 Here we use a model to change something we have made.
 
-Next time, I think it would be interesting to go the other way as well:
+For a later session, one possible exercise would be to go the other way as well:
 
 **generated image → infer simple rules → p5.js reconstruction → change the code → model transformation**
 
 For example, generate an image containing two circles, then write a small program that could produce a similar arrangement. It is not about recovering hidden code. It is about making a structure explicit and editable again.
 
-That connects back to Session 1 and gives code a useful role after working with the model.
+That connects back to Session 1 and gives code a useful role after working with the model. The practical API setup is not decided yet, so I wouldn't make it a requirement in Session 7.
 
 Mark Webster's neural drawings and print process can become a central reference there: a model as one stage inside a process that has decisions before and after it.
 

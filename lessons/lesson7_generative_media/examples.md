@@ -44,8 +44,6 @@ What does the model inherit from the tulip photographs? Which decisions were mad
 
 ## Sofia Crespo: Neural Zoo
 
-<img src="https://verse.works/image/w3840/static%2Feade068c-3c90-4e27-a429-bf6ea1952134.jpeg%40webp" alt="Sofia Crespo's imagined insect-like biological forms on a dark background" style="width:100%;height:auto;">
-
 _[Sofia Crespo, Neural Zoo, 2018-2022](https://sofiacrespo.com/neural-zoo/)._
 
 `Neural Zoo` presents forms that look biologically plausible but do not belong to any familiar species. We recognise textures, organs or surface details while being unsure what kind of creature we are looking at.
@@ -71,8 +69,6 @@ Why do these images seem familiar? Which parts feel believable, and which do not
 - [Sofia Crespo - artist's website](https://sofiacrespo.com/)
 
 ## Memo Akten: Learning to See
-
-<img src="https://media.superradiance.net/cdn-cgi/image/width%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Conerror%3Dredirect/memotv/projects/2019/barbican/images/barbican.jpg" alt="Memo Akten's Learning to See installation showing physical objects next to their neural reinterpretation" style="width:100%;height:auto;">
 
 _[Memo Akten, Learning to See: Interactive, 2017](https://memo.tv/projects/2017/learning-to-see-interactive/)._
 

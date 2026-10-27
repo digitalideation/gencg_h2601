@@ -29,7 +29,9 @@ By the end of this session, you should be able to:
 
 ## 1. Look before generating
 
-We will begin with a short shared demonstration. Start with a simple composition: a few circles, lines or repeated elements, with clear spaces between them.
+We will begin with a short shared demonstration. Start with [this shared composition](./images/shared-composition.png): two black circles on a light background. Everyone can use the same source for our first comparison.
+
+<img src="./images/shared-composition.png" alt="Two black circles on a light background, the common source image for Session 7" style="max-width:360px;width:100%;height:auto;">
 
 Before running the model, describe the image as a set of relationships:
 
@@ -65,7 +67,7 @@ For example:
 
 The model may not follow every instruction. That is part of what we are investigating.
 
-We can later compare with [FLUX 3 Image](https://replicate.com/black-forest-labs/flux-3-image), a different, proprietary model. It also accepts reference images, but it does not expose exactly the same controls. Turn **Grounding** off for a self-contained comparison.
+For the second row, we can compare with [FLUX 3 Image](https://replicate.com/black-forest-labs/flux-3-image), a different, proprietary model. It also accepts reference images, but it does not expose exactly the same controls. Turn **Grounding** off for a self-contained comparison.
 
 There is no need to learn every field in the interface.
 
@@ -153,13 +155,13 @@ No full prompt history or polished essay is needed.
 
 ## Next session
 
-In Session 8, **Hybrid Pipelines**, we will try moving in both directions:
+Session 8, **Hybrid Pipelines**, will investigate ways to connect images, code and generative models. One possible direction is:
 
 **generated image → describe its rules → rebuild a simple version in p5.js → change the code → transform the new output with a model**
 
 A starting image might contain only two circles or a small grid. The point is not to recover an original program hidden inside it, but to invent an understandable one that lets us make further decisions.
 
-Today is about learning to work with the model as material. Next time we will decide **where it belongs in a larger process**.
+Today is about learning to work with the model as material. We will decide the technical setup and exact activity for Session 8 separately.
 
 → [Examples and references](./examples.md)  
 → [Notes on this session](./teacher-notes.md)
