@@ -29,15 +29,16 @@ By the end of this session, you should be able to:
 
 ## 1. Look before generating
 
-We will begin with a short shared demonstration. Start with [this shared composition](./images/shared-composition.png): two black circles on a light background. Everyone can use the same source for our first comparison.
+We will begin with a short shared demonstration. Start with [this shared PNG composition](./images/shared-composition.png): a 3 × 3 grid of nine circles. Their centres form a regular grid, their sizes increase from left to right, and the middle circle has a different colour. The circles do not overlap. Download the PNG and upload that file directly into Replicate. Everyone can use the same source for our first comparison.
 
-<img src="./images/shared-composition.png" alt="Two black circles on a light background, the common source image for Session 7" style="max-width:360px;width:100%;height:auto;">
+<img src="./images/shared-composition.png" alt="Nine circles in a three-by-three grid, increasing in size from left to right, with a red centre circle" style="max-width:360px;width:100%;height:auto;">
 
 Before running the model, describe the image as a set of relationships:
 
-- How many elements are there?
-- What is their arrangement?
-- What is repeated?
+- How many circles are there? Does the model preserve the count?
+- Do their centres still form a 3 × 3 grid?
+- Do the circles still get larger from left to right?
+- Does the centre circle keep its contrasting colour?
 - Where is the empty space?
 - Which parts should stay recognisable?
 
@@ -45,7 +46,7 @@ Then imagine changing only its **material appearance**. Perhaps the same structu
 
 Write two short statements:
 
-**Keep:** the composition, spacing and number of elements.  
+**Keep:** nine circles, the grid, the size progression, the empty spaces and the contrasting centre.  
 **Change:** the apparent material and surface.
 
 Compare your prediction with what the model actually does.
