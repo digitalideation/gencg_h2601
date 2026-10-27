@@ -74,9 +74,7 @@ Keep your two recommendations for the next step. **You do not need to open the b
 
 Now we will bring everyone's proposals together.
 
-**[Open the shared Miro board](REPLACE_WITH_MIRO_BOARD_URL)**
-
-<!-- Instructor: replace REPLACE_WITH_MIRO_BOARD_URL with the class Miro link before the session. -->
+**[Open the shared Miro board](https://miro.com/app/board/uXjVEVWHqBo=/?share_link_id=574219139166)**
 
 1. **Add your pair's proposals:** Choose one color for your pair (different from other pairs) and use it for both recommendations on the board. Include an unresolved disagreement if you have one.
 2. **Read the others:** Look for one difference between your proposals and another pair's.
