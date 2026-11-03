@@ -7,7 +7,7 @@ Look at **what each stage contributes**, not only the finished image. None of th
 
 ## Mark Webster: Neural Drawings
 
-<img src="https://verse.works/image/w3840/static/1976ea67-96fe-4b2c-80bd-649059b0ced2.jpg%40webp" alt="A horizontal black-and-white image of Mark Webster's etched print being lifted from the printing press" style="width:100%;max-width:680px;height:auto;display:block;">
+<img src="https://verse.works/image/w3840/static/1976ea67-96fe-4b2c-80bd-649059b0ced2.jpg%40webp" alt="A horizontal black-and-white image of Mark Webster's etched print being lifted from the printing press" style="width:100%;height:auto;">
 
 *Image: Mark Webster, Neural Drawings, printmaking process. Source: [Verse exhibition documentation](https://verse.works/exhibitions/odysseys-mark-webster).*
 
@@ -56,7 +56,7 @@ Why introduce code between a source image and a model? How would the result diff
 
 ## Botto: Algorithmic Evolution (2024–2025)
 
-<img src="https://cms-dev.botto.com/assets/55e17449-6110-4dd5-866b-d90d0638bbb3?format=webp&width=1600" alt="Wide installation view of Botto's Algorithmic Evolution exhibition showing generative art on several screens" style="width:100%;max-width:680px;height:auto;display:block;">
+<img src="https://cms-dev.botto.com/assets/55e17449-6110-4dd5-866b-d90d0638bbb3?format=webp&width=1600" alt="Wide installation view of Botto's Algorithmic Evolution exhibition showing generative art on several screens" style="width:100%;height:auto;">
 
 *Image: Botto, Algorithmic Evolution, installation view (2025). Source: [Botto's exhibition documentation](https://botto.com/event/algorithmic-evolution).*
 
