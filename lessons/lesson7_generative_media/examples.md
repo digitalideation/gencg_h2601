@@ -17,7 +17,7 @@ While browsing, ask:
 
 <img src="https://images.squarespace-cdn.com/content/v1/5500326fe4b0564d4c2494d1/1668431003454-AHT75S8GQ6CDK5JKCL2R/low_38%2BKasseler%2BDokfest_Monitoring_%C2%A9Nicolas%2BWefers_JPEG-Qualita%CC%88t%2B100_%2B2.png" alt="Anna Ridler's Myriad (Tulips), a grid of photographed and annotated tulips" style="width:100%;height:auto;">
 
-_[Anna Ridler, Myriad (Tulips), 2018](https://annaridler.com/myriad-tulips)._
+*Image: [Anna Ridler, Myriad (Tulips) (2018)](https://annaridler.com/myriad-tulips).*
 
 Ridler photographed and hand-labelled thousands of tulips for `Myriad (Tulips)`. That collection became the training material for `Mosaic Virus`, in which generative images of tulips change over time.
 
@@ -44,6 +44,10 @@ What does the model inherit from the tulip photographs? Which decisions were mad
 
 ## Sofia Crespo: Neural Zoo
 
+[<img src="https://verse.works/image/w3840/static%2Feade068c-3c90-4e27-a429-bf6ea1952134.jpeg%40webp" alt="Sofia Crespo, Neural Zoo: imagined biological forms generated with neural networks" style="width:100%;max-width:640px;height:auto;">](https://sofiacrespo.com/neural-zoo/)
+
+*Image: Sofia Crespo, Neural Zoo (2018–2022). [Artist's project page](https://sofiacrespo.com/neural-zoo/).*
+
 _[Sofia Crespo, Neural Zoo, 2018-2022](https://sofiacrespo.com/neural-zoo/)._
 
 `Neural Zoo` presents forms that look biologically plausible but do not belong to any familiar species. We recognise textures, organs or surface details while being unsure what kind of creature we are looking at.
@@ -69,6 +73,10 @@ Why do these images seem familiar? Which parts feel believable, and which do not
 - [Sofia Crespo - artist's website](https://sofiacrespo.com/)
 
 ## Memo Akten: Learning to See
+
+[<img src="https://media.superradiance.net/cdn-cgi/image/width%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Conerror%3Dredirect/memotv/projects/2019/barbican/images/barbican.jpg" alt="Memo Akten's Learning to See interactive installation at the Barbican, showing objects and a live neural-network interpretation" style="width:100%;max-width:640px;height:auto;">](https://memo.tv/projects/2017/learning-to-see-interactive/)
+
+*Image: Memo Akten, Learning to See: Interactive, installation at the Barbican (2019). [Artist's project documentation](https://memo.tv/projects/2019/barbican/).*
 
 _[Memo Akten, Learning to See: Interactive, 2017](https://memo.tv/projects/2017/learning-to-see-interactive/)._
 
