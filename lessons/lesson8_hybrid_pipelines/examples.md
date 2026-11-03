@@ -7,9 +7,9 @@ Look at **what each stage contributes**, not only the finished image. None of th
 
 ## Mark Webster: Neural Drawings
 
-<img src="https://verse.works/image/w3840/static%2Ffb7f4ccf-4979-441d-8d17-22788f9ee4a6.jpg%40webp" alt="Black and white handmade print of Mark Webster's Neural Drawings, with dense circular patterns and a white paper border" style="width:100%;max-width:680px;aspect-ratio:3/2;object-fit:contain;background:#f5f5f5;display:block;">
+<img src="https://verse.works/image/w3840/static/1976ea67-96fe-4b2c-80bd-649059b0ced2.jpg%40webp" alt="A horizontal black-and-white image of Mark Webster's etched print being lifted from the printing press" style="width:100%;max-width:680px;height:auto;display:block;">
 
-*Image: Mark Webster, Neural Drawings. Source: [Verse interview and process documentation](https://verse.works/journal/on-neural-drawings-of-mark-webster).*
+*Image: Mark Webster, Neural Drawings, printmaking process. Source: [Verse exhibition documentation](https://verse.works/exhibitions/odysseys-mark-webster).*
 
 _[Mark Webster, Neural Drawings](https://verse.works/journal/on-neural-drawings-of-mark-webster)._
 
@@ -56,9 +56,9 @@ Why introduce code between a source image and a model? How would the result diff
 
 ## Botto: Algorithmic Evolution (2024–2025)
 
-<img src="https://verse-journal.ghost.io/content/images/2025/03/02117.png" alt="Botto's Prismatic Triangulation, algorithm 2117 from Algorithmic Evolution, showing irregular triangular geometry" style="width:100%;max-width:680px;aspect-ratio:3/2;object-fit:contain;background:#f5f5f5;display:block;">
+<img src="https://cms-dev.botto.com/assets/55e17449-6110-4dd5-866b-d90d0638bbb3?format=webp&width=1600" alt="Wide installation view of Botto's Algorithmic Evolution exhibition showing generative art on several screens" style="width:100%;max-width:680px;height:auto;display:block;">
 
-*Image: Botto, Prismatic Triangulation: Symphony of Sacred Geometry III, #2117 (2025). Source: [Botto's p5.js Study: an Evolving Organism](https://verse.works/journal/bottos-p5js-study-an-evolving-organism).*
+*Image: Botto, Algorithmic Evolution, installation view (2025). Source: [Botto's exhibition documentation](https://botto.com/event/algorithmic-evolution).*
 
 _[Botto, Algorithmic Evolution](https://verse.works/series/algorithmic-evolution-by-botto)._
 
