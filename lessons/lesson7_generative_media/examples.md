@@ -15,9 +15,9 @@ While browsing, ask:
 
 ## Anna Ridler: Myriad (Tulips) and Mosaic Virus
 
-<img src="https://images.squarespace-cdn.com/content/v1/5500326fe4b0564d4c2494d1/1668431003454-AHT75S8GQ6CDK5JKCL2R/low_38%2BKasseler%2BDokfest_Monitoring_%C2%A9Nicolas%2BWefers_JPEG-Qualita%CC%88t%2B100_%2B2.png" alt="Anna Ridler's Myriad (Tulips), a grid of photographed and annotated tulips" style="width:100%;height:auto;">
+<img src="https://arterritory.com/images/maintmp/26933-53201152913%2B7df12d1b2a%2Bo.jpg" alt="Landscape installation photograph of Anna Ridler's Myriad (Tulips), with a long wall of annotated flower photographs" style="width:100%;max-width:680px;height:auto;display:block;">
 
-_[Anna Ridler, Myriad (Tulips), 2018](https://annaridler.com/myriad-tulips)._
+*Image: Anna Ridler, Myriad (Tulips), installation view. Source: [Arterritory interview](https://arterritory.com/en/visual_arts/interviews/26933-data_intimacy/).*
 
 Ridler photographed and hand-labelled thousands of tulips for `Myriad (Tulips)`. That collection became the training material for `Mosaic Virus`, in which generative images of tulips change over time.
 
@@ -44,6 +44,10 @@ What does the model inherit from the tulip photographs? Which decisions were mad
 
 ## Sofia Crespo: Neural Zoo
 
+[<img src="https://nextnature.org/_ipx/q_80%26s_2560x1702/https%3A/cms.nextnature.net/media/pages/magazine/story/2020/interview-sofia-crespo/e34d5be45c-1720018765/synthetic_optimism_ecosystem_3636-1.png" alt="Landscape image of synthetic aquatic plants and an invented ecosystem by Sofia Crespo" style="width:100%;max-width:680px;height:auto;display:block;">](https://sofiacrespo.com/neural-zoo/)
+
+*Image: Sofia Crespo, synthetic ecosystem, featured in a [Next Nature interview about Neural Zoo](https://nextnature.org/en/magazine/story/2020/interview-sofia-crespo). The image is from her broader practice, not identified as a specific Neural Zoo work.*
+
 _[Sofia Crespo, Neural Zoo, 2018-2022](https://sofiacrespo.com/neural-zoo/)._
 
 `Neural Zoo` presents forms that look biologically plausible but do not belong to any familiar species. We recognise textures, organs or surface details while being unsure what kind of creature we are looking at.
@@ -69,6 +73,10 @@ Why do these images seem familiar? Which parts feel believable, and which do not
 - [Sofia Crespo - artist's website](https://sofiacrespo.com/)
 
 ## Memo Akten: Learning to See
+
+[<img src="https://media.superradiance.net/cdn-cgi/image/width%3D1600%2Cfit%3Dscale-down%2Cformat%3Dauto%2Conerror%3Dredirect/memotv/projects/2017/learning-to-see-interactive/images/Memo-Akten-Learning-to-See-Creative-Machines-Taikang-Beijing-20241115-170441-CROP.jpg" alt="Landscape installation view of Memo Akten's Learning to See at Taikang Art Museum in 2024" style="width:100%;max-width:680px;height:auto;display:block;">](https://memo.tv/projects/2017/learning-to-see-interactive/)
+
+*Image: Memo Akten, Learning to See: Interactive, installation at Taikang Art Museum (2024). [Artist's project documentation](https://memo.tv/projects/2017/learning-to-see-interactive/).*
 
 _[Memo Akten, Learning to See: Interactive, 2017](https://memo.tv/projects/2017/learning-to-see-interactive/)._
 
