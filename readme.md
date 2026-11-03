@@ -97,8 +97,8 @@ The exact exercises may evolve, but the course follows this general progression:
 7. **[Generative Media](./lessons/lesson7_generative_media/)**
    Investigating generative image models through image editing, comparison and selection.
 
-8. **Hybrid Pipelines**
-   Connecting p5.js, generative models and other media processes.
+8. **[Hybrid Pipelines](./lessons/lesson8_hybrid_pipelines/)**
+   Moving between AI images, explicit p5.js rules and model reinterpretation.
 
 9. **Final Project: Concept & Prototype**
    Define the system and build an initial proof of concept.
