@@ -7,7 +7,7 @@ Look at **what each stage contributes**, not only the finished image. None of th
 
 ## Mark Webster: Neural Drawings
 
-<img src="https://verse.works/image/w3840/static%2Ffb7f4ccf-4979-441d-8d17-22788f9ee4a6.jpg%40webp" alt="Black and white handmade print of Mark Webster's Neural Drawings, with dense circular patterns and a white paper border" style="width:100%;max-width:640px;height:auto;">
+<img src="https://verse.works/image/w3840/static%2Ffb7f4ccf-4979-441d-8d17-22788f9ee4a6.jpg%40webp" alt="Black and white handmade print of Mark Webster's Neural Drawings, with dense circular patterns and a white paper border" style="width:100%;max-width:680px;aspect-ratio:3/2;object-fit:contain;background:#f5f5f5;display:block;">
 
 *Image: Mark Webster, Neural Drawings. Source: [Verse interview and process documentation](https://verse.works/journal/on-neural-drawings-of-mark-webster).*
 
@@ -56,7 +56,7 @@ Why introduce code between a source image and a model? How would the result diff
 
 ## Botto: Algorithmic Evolution (2024–2025)
 
-<img src="https://verse-journal.ghost.io/content/images/2025/03/02117.png" alt="Botto's Prismatic Triangulation, algorithm 2117 from Algorithmic Evolution, showing irregular triangular geometry" style="width:100%;max-width:640px;height:auto;">
+<img src="https://verse-journal.ghost.io/content/images/2025/03/02117.png" alt="Botto's Prismatic Triangulation, algorithm 2117 from Algorithmic Evolution, showing irregular triangular geometry" style="width:100%;max-width:680px;aspect-ratio:3/2;object-fit:contain;background:#f5f5f5;display:block;">
 
 *Image: Botto, Prismatic Triangulation: Symphony of Sacred Geometry III, #2117 (2025). Source: [Botto's p5.js Study: an Evolving Organism](https://verse.works/journal/bottos-p5js-study-an-evolving-organism).*
 
