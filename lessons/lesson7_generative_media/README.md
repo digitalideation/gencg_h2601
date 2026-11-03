@@ -27,117 +27,105 @@ By the end of this session, you should be able to:
 
 → [Examples and references](./examples.md)
 
-## 1. Look before generating
+## 1. Write a prompt before generating
 
-We will begin with a short shared demonstration. Start with [this shared PNG composition](./images/shared-composition.png): a 3 × 3 grid of nine circles. Their centres form a regular grid, their sizes increase from left to right, and the middle circle has a different colour. The circles do not overlap. Download the PNG and upload that file directly into Replicate. Everyone can use the same source for our first comparison.
+We will begin with the same image so we can compare what different models do with it.
+
+[Download the shared PNG](./images/shared-composition.png). It shows nine circles in a 3 × 3 grid. The circles get larger from left to right, and the centre circle has a contrasting colour.
 
 <img src="./images/shared-composition.png" alt="Nine circles in a three-by-three grid, increasing in size from left to right, with a red centre circle" style="max-width:360px;width:100%;height:auto;">
 
-Before running the model, describe the image as a set of relationships:
+**Work individually. Before opening Replicate:**
 
-- How many circles are there? Does the model preserve the count?
-- Do their centres still form a 3 × 3 grid?
-- Do the circles still get larger from left to right?
-- Does the centre circle keep its contrasting colour?
-- Where is the empty space?
-- Which parts should stay recognisable?
-
-Then imagine changing only its **material appearance**. Perhaps the same structure is made of cut paper, woven thread or ceramic.
-
-Write two short statements:
-
-**Keep:** nine circles, the grid, the size progression, the empty spaces and the contrasting centre.  
-**Change:** the apparent material and surface.
-
-Compare your prediction with what the model actually does.
-
-## 2. Open a model in Replicate
-
-For the first investigation, use the [FLUX.2 Klein 4B playground](https://replicate.com/black-forest-labs/flux-2-klein-4b). This is a compact open-source model that supports image editing. We choose it because we can inspect the input image, prompt and settings, not because it is supposed to make the most beautiful image.
-
-1. Open the model's web page and sign in if needed.
-2. Add the source image under **Images**.
-3. Write an instruction describing both what to preserve and what to change.
-4. Where available, match the source image's aspect ratio.
-5. Keep the output resolution and other settings consistent across runs.
-6. Generate, download the result and note the settings.
+1. Look at the image and decide **what to keep**, such as the grid, nine circles, size progression or contrasting centre.
+2. Decide **what to change**. For example, give the circles the appearance of woven thread, cut paper or ceramic.
+3. Write a short prompt telling the model both what to keep and what to change.
+4. Predict one thing the model might change even though you asked it not to.
 
 For example:
 
-> Use the attached geometric composition as the layout. Keep the number of shapes, their positions and the empty spaces. Reinterpret the marks as pieces of cut black paper on a light background. Do not introduce new objects.
+> Use the attached image as the layout. Turn the nine circles into woven-thread objects. Keep the 3 × 3 grid, size progression, contrasting centre and empty spaces. Do not add extra objects.
 
-The model may not follow every instruction. That is part of what we are investigating.
+Keep your first prompt and prediction. **Do not generate anything yet.** You will test them in the next step.
 
-For the second row, we can compare with [FLUX 3 Image](https://replicate.com/black-forest-labs/flux-3-image), a different, proprietary model. It also accepts reference images, but it does not expose exactly the same controls. Turn **Grounding** off for a self-contained comparison.
+## 2. Test your prompt in Replicate
 
-There is no need to learn every field in the interface.
+Open the [FLUX.2 Klein 4B playground](https://replicate.com/black-forest-labs/flux-2-klein-4b). It can generate from text alone or edit an image you supply. Here we will **edit an existing image**.
 
-## 3. Start a small series
+1. Open the model page and sign in if needed.
+2. Upload the **shared PNG from Step 1** under **Images**.
+3. Paste **the prompt you wrote in Step 1** into the prompt field. You can adapt the example if needed.
+4. Set the aspect ratio to **match_input_image**, if available, and leave the other settings at their defaults for this first test.
+5. Click **Run**, then download your result.
 
-Now choose **one source image of your own**, such as a pattern, drawing-machine output, parameter study or image transformation from an earlier session.
+Compare the result with the original. **What stayed the same? What changed? Did your prediction come true?** Write down one observation.
 
-Choose three clearly different treatments, for example:
+One generation is enough for now. In the next step you will develop your own series.
+
+For the second-model comparison in Step 3, use [FLUX 3 Image](https://replicate.com/black-forest-labs/flux-3-image). It supports image editing too, but offers different controls. Turn **Grounding** off so the model does not introduce web search.
+
+There is no need to learn every field in the interface today.
+
+## 3. Make a small series
+
+Choose **one image of your own**, perhaps a pattern, drawing-machine output, parameter study or image transformation from an earlier session. If you don't have a suitable image, you can continue with the shared PNG.
+
+Decide what should stay fixed in that image. Then choose **three different treatments**, for example:
 
 - cut paper
 - woven thread
 - glazed ceramic
 
-Use the **same source image each time**. Do not feed the previous generated result into the next run.
+Write three related prompts that preserve the same features but change the requested material.
 
-For each treatment, decide what should stay fixed. Your prompts can be short, but they should describe a specific transformation rather than only a style.
+**Make a six-image comparison:**
 
-### The six-image study
-
-Compare two models across the three treatments:
+1. With **Model A: [FLUX.2 Klein 4B](https://replicate.com/black-forest-labs/flux-2-klein-4b)**, run all three prompts. Save the outputs as A1, A2 and A3.
+2. With **Model B: [FLUX 3 Image](https://replicate.com/black-forest-labs/flux-3-image)**, run the **same three prompts**. Save them as B1, B2 and B3. Turn **Grounding** off.
+3. Put the six results in a grid:
 
 | | Cut paper | Woven thread | Glazed ceramic |
 | --- | --- | --- | --- |
-| **Model A** | A1 | A2 | A3 |
-| **Model B** | B1 | B2 | B3 |
+| **Model A: Klein** | A1 | A2 | A3 |
+| **Model B: FLUX 3** | B1 | B2 | B3 |
 
-Start with the same image and equivalent instructions for both models. Keep output dimensions and other relevant settings comparable where possible, and note differences you cannot control.
+**Start every run from the same original image**, not the previous generated result. Keep relevant settings comparable where possible, and note important differences between the models.
 
-The six images are **a small experiment**, not a ranking of which model is universally better.
+If only one model is available, compare three **short prompts** with three **more specific prompts** for the same treatments. Label the rows by instruction strategy, not by model. If access or budget is limited, three carefully compared results are enough.
 
-If only one model is available, make the second row with a second, clearly labelled instruction strategy. For example, compare a minimal instruction with a more constrained one. Do not pretend those two rows are different models.
+The point is to test one idea through a series, not to produce unrelated pictures or rank models.
 
-If access or budget is limited, begin with the three Model A results and compare the second row together using the shared demonstration.
+## 4. Compare and choose
 
-## 4. Compare what actually happened
-
-Put the source and results next to each other. Look across a row, then down a column.
+Place your source image next to the results. Compare **across a row** to see how the material changes the outcome, and **down a column** to see what each model does with the same instruction.
 
 Ask:
 
-- Which parts of the composition survived?
-- Were new objects, textures or shadows added?
-- Did the spacing or number of elements change?
-- Where did the model ignore the instruction?
-- Which differences come from the requested treatment?
-- Which seem to come from the model itself?
-- Which result is visually appealing but misses the idea?
+- Which parts of the original composition survived?
+- Did the model add objects, textures, shadows or other details?
+- Did the number, spacing or arrangement of elements change?
+- Which result follows your intention most closely?
+- Which is attractive but does something you did not ask for?
 
-Keep one result you would continue with and **one you would reject**. Explain both decisions.
+Choose **one result to continue with** and **one to reject or develop differently**. Write a short reason for each. An unexpected result is useful evidence, even if you don't want to keep it.
 
-A model changing something you wanted to preserve is not automatically a failure of the exercise. It tells us something about the relationship between your intention and the model's behaviour.
+## 5. Save the experiment
 
-## 5. Keep the experiment readable
+For each result, keep the **source image, model name, prompt and relevant settings** together. Label the comparison so another person can tell what changed.
 
-Record the model name, source, instruction and any settings that matter.
+If the model offers a seed, record it when useful for repeating a run **within the same model**. The same seed is not a guarantee of comparable results across different models.
 
-If a model offers a seed, use or record it when comparing versions **within that model**. The same number is not a shared visual starting point across different models, and not every model exposes seed controls.
+Download your outputs rather than assuming they will stay available online. Replicate retains web-interface predictions until you delete them.
 
-Save your files locally rather than assuming the prediction page will always be available. An image generated through the web interface may remain in your Replicate history until you delete it.
+Use your own images or material you have permission to upload. Avoid private photographs or images of other people without their agreement.
 
-Use your own images or material you have permission to upload. Do not upload private photographs or someone else's work without considering the rights, consent and data retention involved.
+## 6. Reflect on your decisions
 
-## 6. Discuss the decisions
+Review the series **individually**. In a few sentences, explain what you tried to preserve, what the model changed or invented, and why you selected one result and rejected another.
 
-Show your series to a partner. Explain what you tried to preserve before revealing which images you prefer.
+We can share a few findings with the class, but the experiments and journal reflections are individual work.
 
-Your partner should identify one surprising change, then ask why the model may have produced it. This is not about guessing the model's hidden reasoning, but comparing what went in and what came out.
-
-A useful final question:
+Consider:
 
 > **Would I have made the same decision if the model had given me a less polished result?**
 
@@ -150,7 +138,7 @@ Keep one connected record:
 - the model names, prompts and relevant settings
 - one selected and one rejected image, each with a short explanation
 - something the model added, removed or misunderstood
-- a possible direction for the next session
+- one possible direction you might explore next
 
 No full prompt history or polished essay is needed.
 

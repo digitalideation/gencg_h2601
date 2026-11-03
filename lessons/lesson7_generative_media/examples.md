@@ -125,7 +125,7 @@ The interface can change. Before a class, check model availability, supported fi
 
 ### Try this
 
-Use the same simple image in both models. Ask for three distinct material transformations, one at a time.
+This is the comparison from the main lesson, not an extra assignment. Use the same simple image in both models. Ask for three distinct material transformations, one at a time.
 
 Keep the input image fixed and save the settings alongside the outputs. Ask:
 

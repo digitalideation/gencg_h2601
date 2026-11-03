@@ -28,36 +28,27 @@ There is no requirement to write p5.js code today. This is deliberate. We are ta
 
 ## The bridge from Session 1
 
-I like beginning with something almost stupidly simple: two circles or a few lines on a light background.
+I would begin with the shared PNG showing nine circles in a 3 × 3 grid. They increase in size across each row and the centre circle has a contrasting colour. There are enough relationships to test without making the input too complicated.
 
-Describe the rules. Then ask the model to preserve those relationships while changing the material.
+Ask students to write a prompt **individually**, before opening Replicate. Each student decides which relationships to keep and what material quality to change.
 
 For example:
 
-> Keep the two circles where they are. Make them look like objects cut from folded paper.
+> Turn the nine circles into cut-paper shapes. Keep the grid, size progression, contrasting centre and empty spaces. Do not add more objects.
 
-In Session 1, an instruction was interpreted by another human. Here it is interpreted through a generative model.
+In Session 1, instructions were interpreted by another human. Here the model interprets them. **How much does the instruction actually determine?**
 
-Ask: **How much does the instruction actually determine?**
-
-This also gives us a reason not to begin with a complicated illustration. If the input is already crowded, it becomes harder to see what the model contributed.
+The key is to make a prediction before generating. Don't combine writing the prompt with uploading and generating in the same step.
 
 ## The shared demonstration
 
-I would do the first comparison together, perhaps with one source and two runs.
+Everyone uses the same PNG but works individually. Allow a few minutes for students to write their first prompt and predict one unintended change.
 
-Before showing the output, ask for predictions:
+Then show how to upload the image, paste the prompt and run the model in Replicate. Students make their own first result. We can look at a few outputs together and ask what happened to the number of circles, grid, size progression, contrasting colour and empty space.
 
-- Which elements will stay in place?
-- Will the number of shapes remain correct?
-- How might it represent empty space?
-- What kinds of details might appear without being requested?
+If the model adds a tenth circle or shifts the grid, we have something concrete to discuss.
 
-Show the result and compare it with those predictions.
-
-This should be a discussion, not a demonstration of how impressive the model is. A model that invents a third circle gives us something quite concrete to talk about.
-
-Then let everyone work with a source they made themselves.
+This first run tests an intention; it is not a competition to write the most impressive prompt. One run is enough before switching to their own source image.
 
 ## Why a series rather than endless prompting?
 
@@ -171,19 +162,19 @@ For the shared demonstration, use a non-sensitive image prepared in advance. Ask
 
 Replicate's web predictions are retained until manually deleted, while API predictions have a different default retention policy. This is worth mentioning before uploads, not after. Don't ask for personal photographs as input.
 
-Have a small prepared before/after set ready if accounts, billing or network access fail. A pair can still analyse the same questions using those outputs.
+Have a small prepared before/after set ready if accounts, billing or network access fail. Students can still make individual observations using those outputs.
 
 ## A possible session rhythm
 
 For a 150-minute session, I would try something like:
 
-- **15 min:** reconnect Session 6 to the new question; shared simple image and predictions
-- **20 min:** first model run together; discussion of what changed
+- **15 min:** reconnect Session 6; write individual prompts and predictions using the shared image
+- **20 min:** first Replicate run using the shared image; compare predictions with results
 - **20 min:** Ridler, Crespo and Akten, selecting just the passages needed
 - **10 min:** break
 - **45 min:** individual six-image study (or reduced series), saving settings and outputs
-- **25 min:** pair comparison, selection and rejection
-- **15 min:** share a few findings and connect them to Session 8
+- **25 min:** individual comparison, selection and written reflection
+- **15 min:** optional whole-class sharing and a tentative bridge to later hybrid work
 
 This is only a possible rhythm. The important part is to leave enough time after generation to look carefully. I would rather finish with four well-compared images than twelve images nobody has examined.
 
