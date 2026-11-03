@@ -7,6 +7,10 @@ Look at **what each stage contributes**, not only the finished image. None of th
 
 ## Mark Webster: Neural Drawings
 
+<img src="https://verse.works/image/w3840/static%2Ffb7f4ccf-4979-441d-8d17-22788f9ee4a6.jpg%40webp" alt="Black and white handmade print of Mark Webster's Neural Drawings, with dense circular patterns and a white paper border" style="width:100%;max-width:640px;height:auto;">
+
+*Image: Mark Webster, Neural Drawings. Source: [Verse interview and process documentation](https://verse.works/journal/on-neural-drawings-of-mark-webster).*
+
 _[Mark Webster, Neural Drawings](https://verse.works/journal/on-neural-drawings-of-mark-webster)._
 
 Webster combines imagery made with generative algorithms, a neural-network transformation and physical printmaking. The algorithm provides a structure, the network reinterprets it, and the printing process introduces another set of material choices.
@@ -30,7 +34,7 @@ Why not stop at the code-generated drawing? Why not use the model alone? What do
 
 ## JCode: What Remains (2026)
 
-_[JCode, What Remains](https://www.jcode.art/)._
+_[JCode, What Remains](https://www.jcode.art/)._ You can see the actual paintings in the [artist's project gallery](https://www.jcode.art/).
 
 The artist describes a workflow in which photographic material is transformed through **p5.js code** and then reinterpreted by a custom image model (a LoRA-based process). This is the closest example to the **code → AI image** part of our workshop.
 
@@ -51,6 +55,10 @@ Why introduce code between a source image and a model? How would the result diff
 - [JCode: works and project information](https://www.jcode.art/)
 
 ## Botto: Algorithmic Evolution (2024–2025)
+
+<img src="https://verse-journal.ghost.io/content/images/2025/03/02117.png" alt="Botto's Prismatic Triangulation, algorithm 2117 from Algorithmic Evolution, showing irregular triangular geometry" style="width:100%;max-width:640px;height:auto;">
+
+*Image: Botto, Prismatic Triangulation: Symphony of Sacred Geometry III, #2117 (2025). Source: [Botto's p5.js Study: an Evolving Organism](https://verse.works/journal/bottos-p5js-study-an-evolving-organism).*
 
 _[Botto, Algorithmic Evolution](https://verse.works/series/algorithmic-evolution-by-botto)._
 
