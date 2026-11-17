@@ -104,7 +104,7 @@ The exact exercises may evolve, but the course follows this general progression:
    Define the system and build an initial proof of concept.
 
 10. **Final Project: Studio**
-    Development, testing and iteration.
+    Development, testing and iteration. Optional activity: [Peer Feedback Workshop](./lessons/extra/peer-feedback.md).
 
 11. **Final Project: Critique & Revision**
     Share a meaningful draft, receive feedback and revise.
