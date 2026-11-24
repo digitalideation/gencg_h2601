@@ -46,7 +46,7 @@ You can use this process whenever you start a project or get stuck during develo
 
 Choose something you want to understand. It can be visual, conceptual or technical.
 
-For example: *How can repeated geometric rules create something that feels alive?*
+For example: *How can typography become interactive?* This could lead you to investigate text that moves, stretches or responds to a cursor.
 
 A specific question helps you search more purposefully than *I need some inspiration*.
 
@@ -77,9 +77,9 @@ If you are not sure whether an artwork image can be republished in your public j
 
 A reference becomes useful when you explain the connection.
 
-Instead of only writing *I like this pattern*, try something more specific:
+Instead of only writing *I like these letters*, try something more specific:
 
-*The shapes repeat regularly, but their directions change. My current sketch varies everything at once. I could keep the spacing fixed and vary only the angle.*
+*The letters shift away from the mouse, but the word stays readable. In my sketch, I could use the cursor's distance from each letter to control how far it moves.*
 
 You can also question or reject an approach. Research does not mean copying a style.
 
