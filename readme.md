@@ -149,6 +149,7 @@ Use sketches, Excalidraw diagrams, screenshots, code experiments, failed attempt
 
 The important thing is to **show your process**, including uncertainty and revision.
 
+→ **[Research & References: From Inspiration to Experimentation](./lessons/extra/research-and-references.md)**  
 → **[Read the detailed journal guidance](./lessons/extra/journal.md)**  
 → **[Create and set up your journal repository](https://github.com/digitalideation/gencg_h2601_journal)**
 

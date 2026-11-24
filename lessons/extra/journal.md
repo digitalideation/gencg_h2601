@@ -56,6 +56,8 @@ Connect your work to a wider context:
 
 A list of links is not enough by itself. Describe what you noticed and how it influenced your experiment or decision.
 
+→ **[Research & References: a practical workshop](./research-and-references.md)**
+
 ### 3. Algorithmic thinking
 
 Make the system behind the work visible:
