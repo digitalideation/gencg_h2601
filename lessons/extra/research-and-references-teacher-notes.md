@@ -52,25 +52,70 @@ The question I would ask afterwards is: **When did a reference, observation or p
 
 ## Your live research demonstration (about 20 min)
 
-Choose a theme that relates to generative coding but leaves room for discovery. One possible starting question:
+**Starting question: How can typography become interactive?**
 
-> How can simple geometric rules create the impression of growth or organic behaviour?
+This is a good theme because everyone knows what letters do, but creative coding lets us investigate what they might **do differently**. Typography can respond to movement, mouse position, sound or other inputs. The research should help us discover possibilities before choosing one.
 
-I would investigate it live, even if the search is a little messy. That is part of the point: students should see how you choose between results, change search terms and follow sources.
+I would demonstrate the process live, including how I select results, investigate the source and change direction when a search is unhelpful. I would not try to build a sketch or write a full journal entry in front of the class.
 
-A possible rhythm:
+### 1. Start with the question (2 min)
 
-1. **Define the question (3 min).** Narrow the theme until you know what you want to investigate. What would count as a useful finding?
-2. **Search and follow leads (6 min).** Try a few searches for artistic projects, then one for a technique. Open a promising result and follow through to the artist or project's original page.
-3. **Read the reference (5 min).** What is the work actually doing? Can you find process information, code, sketches or the creator's account of how it was made? Identify artist, title, year and source.
-4. **Make a connection (4 min).** Describe one formal or behavioural rule you noticed and how it could inform a different experiment in p5.js.
-5. **Formulate a next step (2 min).** State a simple test you could make, such as a branching system with one controlled parameter.
+Write **How can typography become interactive?** on the board.
 
-You do **not** have to write the journal entry live. You can end by pointing to the short copyable template on the annex page, showing which information your search produced.
+Ask what interaction might mean here. Do the letters move? Change shape? Respond to the cursor? We do not need to settle on an outcome yet.
 
-If the first search produces weak results, say why, adjust it and continue. That is a useful demonstration of research judgment. It may help to have one original project page bookmarked as a fallback if the internet is slow.
+### 2. Search for artistic references (6 min)
 
-Distinguish between an **artistic reference**, which can influence ideas or visual language, and a **technical reference**, which helps implement a specific behaviour. Students can use both without treating them as interchangeable.
+Start with a few searches, for example:
+
+- `interactive typography art`
+- `generative typography creative coding`
+- `experimental interactive typography`
+
+Compare a couple of results and follow an interesting one to the **artist's original project page**, rather than stopping at image results or reposts.
+
+Ask: Who made it? What actually changes? What triggers the change? Why does this particular interaction interest us?
+
+### 3. Investigate one project (5 min)
+
+Look beyond the final image or video. Can we find a project description, sketches, code or an explanation of the process?
+
+Distinguish **what we observe** from **what we know** about how it was made. Note the artist, work title, year if available and original source.
+
+A suitable fallback project is [Selina Kehuan Wu's Magnetic Type Maker](https://kehuan.work/Magnetic-Type-Maker-1). Keep it bookmarked, but try to let the live search lead somewhere naturally.
+
+### 4. Connect artistic and technical research (5 min)
+
+Take one observation and turn it into something we might investigate with code.
+
+For instance, if the reference shows letters responding to the cursor, we could search for:
+
+- `p5.js interactive text`
+- `p5.js mouse distance`
+- `p5.js moving letters`
+
+Now we have two kinds of research: an **artistic reference** that suggests an approach and a **technical reference** that might help us test it.
+
+A possible experiment is: *Can I make the letters in a word move apart when the mouse approaches them?*
+
+The goal is not to reproduce the artwork. It is to explore one principle in our own way.
+
+### 5. Formulate a next step (2 min)
+
+Summarise the discoveries in four short points:
+
+- **Reference:** Who made the project, and where can we find the source?
+- **Observation:** What is interesting about its interaction?
+- **Connection:** What could matter for a project of our own?
+- **Experiment:** What is one small test we could make in p5.js?
+
+Point students to the reference template in the [student annex](./research-and-references.md). No need to open Obsidian and compose the entire entry live.
+
+### Keep in mind
+
+The search does not have to go smoothly. Explaining why a result is irrelevant, changing keywords or following a better source demonstrates research judgment.
+
+Keep one or two original project pages bookmarked in case the search or network fails. The aim is to demonstrate **how to move from a question to a reference, from an observation to a technical question, and from there to an experiment**, not to find a perfect example.
 
 ## A possible 150-minute rhythm
 
